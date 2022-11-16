@@ -1,9 +1,17 @@
 import './App.css';
-import Design from './components/Design';
+import Contact from './components/Contact';
+import Design from './components/Design'; 
 
 function App() {
   return (
    <Design/>
+   
+  );
+}
+function App() {
+  return (
+   <Contact/>
+   
   );
 }
 

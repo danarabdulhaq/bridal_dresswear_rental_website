@@ -14,7 +14,7 @@ const Contact = () => {
 				 <input type="text" className="field" placeholder="Your Name"></input>
 				 <input type="text" className="field" placeholder="Your Email"></input>
 				 <input type="text" className="field" placeholder="Phone"></input>
-				 <textarea placeholder="Message" className="field"></textarea>
+				 <textarea placeholder="Your Message PLS" className="field"></textarea>
 				 <button className="btn">Send</button>
                  <img className="imageTwo" src={img3} alt="please wait my beautiful girl"></img>
 			</div>
@@ -23,6 +23,5 @@ const Contact = () => {
     );
  }
 
- 
  // export
 export default Contact

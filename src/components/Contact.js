@@ -6,21 +6,23 @@ import img3 from'./images/M3.jpg'
 //function
 const Contact = () => {
     return(
-        <div className="container" >
-           <div className="hwfbwjf">
-            <h2 className="paragraph">Contact Us</h2>
-            <input className="name" type="text" class="fieldN" placeholder="Your Name"></input>
-            <input className="email" type="text" class="fieldE" placeholder="Your Email"></input>
-            <input className="phone" type="text" class="fieldP" placeholder="Phone">
-            </input> <textarea placeholder="Message" class="field"></textarea>
-            <button className="btn">Send</button>
-            <img className="image" src={img3} alt="please wait my beautiful girl"></img>
-            <button type="submit">Send</button>
-            </div>
-        </div>
-    
-    )
+        <div className="container">
+		   <div className="contact-box">
+		 	   <div className="left"></div>
+			     <div className="right">
+				 <h2>Contact Us</h2>
+				 <input type="text" className="field" placeholder="Your Name"></input>
+				 <input type="text" className="field" placeholder="Your Email"></input>
+				 <input type="text" className="field" placeholder="Phone"></input>
+				 <textarea placeholder="Message" className="field"></textarea>
+				 <button className="btn">Send</button>
+                 <img className="imageTwo" src={img3} alt="please wait my beautiful girl"></img>
+			</div>
+		</div>
+	</div>
+    );
  }
+
  
  // export
 export default Contact

@@ -1,17 +1,17 @@
 import './App.css';
-import Contact from './components/Contact';
+//import React from 'react';
 import Design from './components/Design'; 
+import Contact from './components/Contact'; 
+
 
 function App() {
   return (
-   <Design/>
-   
+    <>
+      <Contact/>
+      <Design/>
+
+   </>
   );
 }
-function App() {
-  return (
-   <Contact/>
-   
-  );
-}
+ 
 export default App;

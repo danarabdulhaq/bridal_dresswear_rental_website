@@ -27,7 +27,7 @@ body{
 	height: 100%;
 	left: 0;
 	top: 0;
-	background: url("img/bg.jpg") no-repeat center;
+	background: url("images/M3.jpg") no-repeat center;
 	background-size: cover;
 	filter: blur(50px);
 	z-index: -1;
@@ -44,7 +44,7 @@ body{
 }
 
 .left{
-	background: url("img/bg.jpg") no-repeat center;
+	background: url("images/M3.jpg") no-repeat center;
 	background-size: cover;
 	height: 100%;
 }
@@ -68,7 +68,7 @@ h2:after{
     height: 4px;
     width: 50px;
     border-radius: 2px;
-    background-color: #cc2e9f;
+    background-color: #a85ce6;
 }
 
 .field{

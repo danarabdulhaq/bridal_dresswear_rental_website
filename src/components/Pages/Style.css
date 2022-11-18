@@ -114,12 +114,11 @@ margin-top: 50px;
 
 
 .text-r{
-
   display: flex;
   position: absolute;
   right: 375px;
   text-align: left;
-  bottom: -43em;
+  bottom: -53em;
   width: 382px;
   height: 200px;
 }
@@ -129,8 +128,8 @@ margin-top: 50px;
   text-align: left;
   display: flex;
   position: absolute;
-  right: 635px;
-  bottom: -81em;
+  right: 676px;
+  bottom: -87em;
   width: 382px;
   height: 200px;
 }
@@ -138,23 +137,22 @@ margin-top: 50px;
 .tit-his{
 
   display: flex;
-    position: absolute;
-    right: 350px;
-    bottom: -19em;
-    width: 400px;
-    height: 200px;
+  position: absolute;
+  right: 354px;
+  bottom: -32em;
+  width: 400px;
+  height: 200px;
 
 }
 
 
 .tit-feat{
 
-
   text-align: left;
   display: flex;
   position: absolute;
-  right: 613px;
-  bottom: -37em;
+  right: 675px;
+  bottom: -55em;
   width: 382px;
   height: 200px;
 

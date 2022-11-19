@@ -19,16 +19,19 @@ export default App;
 
 
 
-
-
-
+////////////////////////////////////////////////////////
 /*function App() {
   return (
-<>
-   <Design/>
-   <Contact/>
-  </>
+<BrowserRouter>
+ <Routes>
 
+          <Route path='/' element={<Design/>}/>
+          <Route index path='/pages/About' element ={<Design/>}/>
+          <Route path='/' element={<Contact/>}/>
+          <Route index path='/pages/About' element ={<Contact/>}/>
 
-  );
+ </Routes>
+</BrowserRouter>
+
+);
 }*/

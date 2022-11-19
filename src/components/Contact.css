@@ -100,7 +100,7 @@ textarea{
 	font-size: 1.1rem;
 	border: none;
 	outline: none;
-	
+	cursor: pointer;
 	transition: .3s;
 }
 

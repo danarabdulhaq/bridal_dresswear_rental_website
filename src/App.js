@@ -1,9 +1,25 @@
 import './App.css';
-import Design from './components/Design';
+import About from './components/Pages/About';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+
+
 
 function App() {
   return (
-   <Design/>
+
+<BrowserRouter>
+
+        <Routes>
+
+                  <Route path='/' element={<About/>}/>
+                  <Route index path='/pages/About' element ={<About/>}/>
+
+        </Routes>
+
+
+</BrowserRouter>
+
+
   );
 }
 

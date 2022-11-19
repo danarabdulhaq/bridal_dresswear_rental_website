@@ -7,6 +7,7 @@ const about = () => {
  
 
     <div>
+        
 <div className='border-for-about'>
          <div  className="head">
                 <h1 className='tithead'>About Us</h1>
@@ -23,6 +24,7 @@ const about = () => {
                     
             </section>
         </div>
+
         <ul>
                
                     

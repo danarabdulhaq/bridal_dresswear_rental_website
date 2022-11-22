@@ -20,7 +20,7 @@ const Contact = () => {
 				 <textarea placeholder="Your Message PLS" className="field"></textarea>
 				 <button className="btn">Send</button>
 			</div>
-		</div>
+		 </div>
 	   </div>
     );
  }

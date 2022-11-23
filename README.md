@@ -5,8 +5,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Available Scripts
 
 ## For Footer 
-you can run below scripts
-npm i mdb-react-ui-kit
+you can run below scripts.\
+npm i mdb-react-ui-kit \
 npm i @fortawesome/fontawesome-free
 
 

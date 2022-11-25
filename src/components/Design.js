@@ -15,7 +15,7 @@ const Design = () => {
           <h3 className="paragraphOneC" ><pre> best wishes to you both</pre></h3>
 
           <h3 className="paragraphTwo" ><pre> Best is yet to come</pre></h3>
-          <h3 className="paragraphTwoC" ><pre> cherish each moment along this journey</pre></h3> 
+          <h3 className="paragraphTwoC" ><pre> cherish each moment along this journey</pre></h3>
       </div>
     )
  }

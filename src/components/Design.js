@@ -6,12 +6,14 @@ import './Design.css'
 //function
 const Design = () => {
     return(
-      
+
       <div className="main">
           <img className="imageOne" src={img1} alt="please wait my beautiful girl"></img>
           <img className="imageTwo" src={img2} alt="please wait my beautiful girl"></img>
       
-          <h3 className="paragraphOne" ><pre> We add one more member to our family</pre></h3>
+          <h3 className="container-fluid" ><pre> We add one more member to our family</pre></h3>
+
+
           <h3 className="paragraphOneC" ><pre> best wishes to you both</pre></h3>
 
           <h3 className="paragraphTwo" ><pre> Best is yet to come</pre></h3>

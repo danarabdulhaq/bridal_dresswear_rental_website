@@ -6,8 +6,7 @@ font-family: 'Times New Roman', Times, serif;
     display: flex;
     justify-content: center;
     width: 60%;
-   height: 60%;
-   
+   height: 60%; 
 }
 
 .card {
@@ -32,7 +31,7 @@ font-family: 'Times New Roman', Times, serif;
   background-color: rgb(198, 193, 193);
   color: rgb(0, 0, 0);
   position: relative;
-  top: -0.4cm;
+  top: -0.1cm;
   left: 9.3px;
   border: none;
  outline: none;

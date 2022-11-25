@@ -1,12 +1,12 @@
-import Form from './Form';
-import './Textbox.css'
-
+import Form from '../Form';
+import '../Textbox.css'
+import '../Form.css'
 const Register = ()=> { 
   
 return (
 <div className='register' style={{backgroundColor: "#9174a3"}}>  
    <Form text= "Sign into your account"> 
-   <div class="form-outline mb-4">
+   <div class="form-outline mb-4 ">
         <input type="text" id="name" placeholder=" "class="text-input" autoComplete='off' required/>
         <label class="label" for="name">Full name</label>
       </div>

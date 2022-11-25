@@ -7,12 +7,14 @@ font-family: 'Times New Roman', Times, serif;
     justify-content: center;
     width: 60%;
    height: 60%;
+   
 }
 
 .card {
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(241, 234, 234);
     width: 25%;
     height: 25%;
+    box-shadow: 0px 0px 19px 5px #25212a88;
 }
 
 .cardImg {
@@ -31,13 +33,25 @@ font-family: 'Times New Roman', Times, serif;
   color: rgb(0, 0, 0);
   position: relative;
   top: -0.4cm;
-  left: 3px;
+  left: 9.3px;
   border: none;
  outline: none;
- width: 100%;
+ width: 90%;
  font-size: 1.2rem;
 }
 .btnPrimary:hover{
     
     background-color:#a36ec0db;
+}
+.cardDetails{
+ position: relative;
+  left: 4px;
+}
+.cardTitle{
+  position: relative;
+  left: 5px;
+}
+.price{
+  position: relative;
+  left: 5px;
 }

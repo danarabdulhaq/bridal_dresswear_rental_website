@@ -23,12 +23,9 @@ font-family: 'Times New Roman', Times, serif;
    justify-content: center;
 }
 
-.cardText{
-    color: #454141;
-}
 .btnPrimary{
 
-  background-color: rgb(198, 193, 193);
+  background-color: rgb(205, 187, 187);
   color: rgb(0, 0, 0);
   position: relative;
   top: -0.1cm;
@@ -43,13 +40,16 @@ font-family: 'Times New Roman', Times, serif;
 }
 .cardDetails{
  position: relative;
-  left: 4.5px;
+  left: 4px;
+  color: #2e2b2b;
 }
 .cardTitle{
   position: relative;
   left: 5px;
+color: #000;
 }
 .price{
   position: relative;
   left: 5px;
+color: #000;
 }

@@ -10,14 +10,14 @@ import Footer from './components/footer';
 function App() {
   return (
 
-<>
-   <Design/>
-   <Contact/>
-   <Card/>
-   <Footer/>
-  </>
-   
-);
+
+    <>
+      
+
+
+   <Design/></>
+  );
+
 }
  
 export default App;

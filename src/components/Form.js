@@ -3,7 +3,6 @@ import Logo from './images/Logo.png'
 import Btn from './Register-btn';
 
 
-
 const Form = (props)=> { 
   return(
     

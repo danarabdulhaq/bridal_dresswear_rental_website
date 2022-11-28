@@ -11,7 +11,7 @@ const Card = () => {
 
     <div className="cardContainer">
         <div className="card" >
-            <img src={testCardImg} className="cardImg" alt="..."></img>
+              <img src={testCardImg} className="cardImg" alt="..."></img>
               <div className="cardBody">
                       <h1 className="cardTitle">White dress with small flowers</h1>
                       <p className="cardDetails">Small details</p>

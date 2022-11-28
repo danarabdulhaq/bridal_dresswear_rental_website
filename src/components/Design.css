@@ -21,10 +21,14 @@
     top: 10px;
 }
 
-.container-fluid {
+.paragraphOne pre {
    font-size: xx-large;
-   font-family: 'Brush Script MT', cursive;
-   color: #66136c;
+    font-family: 'Brush Script MT', cursive;
+    color: #66136c;
+    position: relative;
+    top: -410px;
+    left: 330px;
+    transform: translateY(-680%); 
 }
   
   .paragraphOneC pre{
@@ -41,7 +45,7 @@
     font-size: xx-large;
     font-family: 'Brush Script MT', cursive;
     top: -150px; 
-    color: #66136c;
+    color: #641369;
     position: relative;
     left: 835px;
     transform: translateY(-680%);

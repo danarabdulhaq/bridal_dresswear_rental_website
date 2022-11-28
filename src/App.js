@@ -3,15 +3,16 @@ import React from 'react';
 import Design from './components/Design'; 
 import Contact from './components/Contact'; 
 import Card from './components/Card';
+//import footer
+import Footer from './components/footer';
 //import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Cal from './components/Calendar'
 
 function App() {
   return (
 
 <>
-   <Design/>
-   <Contact/>
-   <Card/>
+   <Cal/>
   </>
    
 );

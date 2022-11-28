@@ -44,14 +44,6 @@ ul li a::after{
     width: 100%;
 }
 .bot{
-    min-height: 500px;
+    min-height: 570000px;
 }
-body{
 
-
-    background:url('../gv.jpg') ;
-    background-size: cover;
-    
-    
-
-}

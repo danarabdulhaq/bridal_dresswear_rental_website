@@ -3,23 +3,43 @@ import './Navbar.css';
 function Navbar() {
     return (
 
+    
         <>
-            <nav class="fixed">
-                <div className="logo">
-                     <img src={require('../imgo.jpg')} alt="error" width="35"height="35"  /> 
-
-                </div>
-                <ul>
-                    <li><a href='#'>Home</a></li>
-                    <li><a href="#">Contact</a> </li>
-                    <li><a href="#">Services</a> </li>
-                    <li><a href="#">About us</a> </li>
-                </ul>
-
-
-            </nav>
-
-            <div className="bot"></div>
+        
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">la  belle </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only"></span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">contact</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">services</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#"> About au</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         </>
     );
 

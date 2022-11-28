@@ -3,6 +3,7 @@ import React from "react"
 import './Contact.css'
 import img3 from'./images/M3.jpg'
 
+
 //function
 const Contact = () => {
     return(

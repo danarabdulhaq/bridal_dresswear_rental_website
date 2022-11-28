@@ -13,7 +13,6 @@ const TextBox = (props) => {
                 <label for="floatingInput">{props.title}</label>
             </div>
         
-        
     );
 }
 

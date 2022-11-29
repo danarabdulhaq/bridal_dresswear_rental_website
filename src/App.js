@@ -7,12 +7,18 @@ import Card from './components/Card';
 import Footer from './components/footer';
 //import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Cal from './components/Calendar'
+import CardDetails from './components/CardDetails';
 
 function App() {
   return (
 
 <>
+   <Card/>
+   <Design/>
+   <Contact/>
    <Cal/>
+   <CardDetails/>
+   <Footer/>
   </>
    
 );

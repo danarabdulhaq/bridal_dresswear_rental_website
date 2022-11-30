@@ -19,7 +19,6 @@ const Card = () => {
                       <button className="btnPrimary">View more</button>
                 </div>
         </div>
-     
     </div>   
  )
 }

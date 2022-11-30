@@ -1,57 +1,50 @@
 nav{
-display: flex;
-justify-content: space-between;
-align-items: center;
-height: 8vh;
-background-color: rgb(255, 255, 255);
-color: rgb(0, 0, 0);
-padding:0 srem; 
-position: fixed;
-width: 100%;
-}
-
-.logo i{
-    margin: 0px; ;
-}
-ul{
     display: flex;
-    list-style-type: none;
-}
-ul li{
-margin: 0 1rem;
-}
-ul li  a:hover{
-color:rgb(99, 83, 83)
-}
-ul li a{
-
-    text-decoration: none;
-    display: block;
-    color:wheat;
-    position: relative;
-}
-ul li a::after{
-    content: "";
-    position: absolute;
-    height: 0.1rem;
-    width: 0%;
-    left: 0;
-    top:1.9rem;
-    background:rgb(30, 255, 0);
-    transition: width 0.3s linear;
-
-}ul li a:hover::after{
+    justify-content: space-between;
+    align-items: center;
+    height: 8vh;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    padding:0 srem; 
+    position: fixed;
     width: 100%;
-}
-.bot{
-    min-height: 500px;
-}
-body{
-
-
-    background:url('../gv.jpg') ;
-    background-size: cover;
+    }
+    
+    .logo i{
+        margin: 0px; ;
+    }
+    ul{
+        display: flex;
+        list-style-type: none;
+    }
+    ul li{
+    margin: 0 1rem;
+    }
+    ul li  a:hover{
+    color:rgb(99, 83, 83)
+    }
+    ul li a{
+    
+        text-decoration: none;
+        display: block;
+        color:wheat;
+        position: relative;
+    }
+    ul li a::after{
+        content: "";
+        position: absolute;
+        height: 0.1rem;
+        width: 0%;
+        left: 0;
+        top:1.9rem;
+        background:#9174a3;
+        transition: width 0.3s linear;
+    
+    }ul li a:hover::after{
+        width: 100%;
+    }
+    .bot{
+        min-height: 570000px;
+    }
     
     
-
-}

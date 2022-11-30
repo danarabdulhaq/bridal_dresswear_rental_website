@@ -1,21 +1,36 @@
 import './App.css';
 import React from 'react';
-import Design from './components/Design'; 
-import Contact from './components/Contact'; 
-import Card from './components/Card';
-//import footer
 import Footer from './components/footer';
-//import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Navbar from './components/Navbar';
+import Home from './components/pages/Home';
+import ContactUs from './components/pages/ContactUs';
+import Services from './components/pages/Services';
+import AboutUs from './components/pages/AboutUs';
+import {  Route, Routes } from 'react-router-dom';
+import Login from './components/pages/LoginPage';
+import Register from './components/pages/RegisterPage';
 
 function App() {
   return (
 
 
     <>
-      
+    <Navbar/>
+      <Routes>
+        <Route path="/" element={<Home />}/>
+          <Route path="/ContactUs" element={<ContactUs />} />
+          <Route path="/Services" element={<Services />} />
+          <Route path="/AboutUs" element={<AboutUs />} />
+          <Route path="/Login" element={<Login />} />
+          <Route path="/Register" element={<Register />} />
+
+      </Routes>
+      <Footer/>
 
 
-   <Design/></>
+
+
+    </>
   );
 
 }

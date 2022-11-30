@@ -23,5 +23,7 @@ const CardDetails = () => {
     );
 }
 
+
+
 //export
 export default CardDetails

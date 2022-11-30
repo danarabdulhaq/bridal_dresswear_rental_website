@@ -46,10 +46,10 @@ font-family: 'Times New Roman', Times, serif;
 .cardTitle{
   position: relative;
   left: 5px;
-color: #000;
+  color: #000;
 }
 .price{
   position: relative;
   left: 5px;
-color: #000;
+  color: #000;
 }

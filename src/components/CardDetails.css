@@ -8,7 +8,7 @@ body{
 	width: 100%;
 }
 
-.theContainer{
+.container{
 	position: relative;
 	width: 100%;
 	height: 100%;
@@ -29,7 +29,7 @@ body{
 	box-shadow: 0px 0px 19px 5px #0000006c;
 }
 
-.left{
+.leftt{
    
 	height: 20rem;
 }
@@ -39,6 +39,6 @@ body{
 	height: 100%;
 }
 
-.right{
+.rightt{
 	padding:20px;
 }

@@ -7,6 +7,7 @@ import './Design.css'
 const Design = () => {
     return(
 
+      
       <div className="main">
           <img className="imageOne" src={img1} alt="please wait my beautiful girl"></img>
           <img className="imageTwo" src={img2} alt="please wait my beautiful girl"></img>

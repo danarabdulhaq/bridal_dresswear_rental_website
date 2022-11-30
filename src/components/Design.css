@@ -1,11 +1,10 @@
 .main {
-    background-color: #ddcccc;
+    background-color: #fffcfc00;
     width: 100px;
 }
 
-.image1{
+.imageOne{
     width: 300px;
-    height:100 px;
     border-radius: 8px;
     border-radius: 50%;
     position: relative;
@@ -13,9 +12,8 @@
     top: 30px;
 }
 
-.image2{
+.imageTwo{
     width: 300px;
-    height:100 px;
     border-radius: 8px;
     border-radius: 50%;
     position: relative;
@@ -23,17 +21,17 @@
     top: 10px;
 }
 
-.paragraph1 pre{
-    font-size: xx-large;
-    font-family: 'Brush Script MT', cursive;
-    color: #66136c;
-    position: relative;
+.container-fluid pre{
+   font-size: xx-large;
+   font-family: 'Brush Script MT', cursive;
+   color: #66136c;
+   position: relative;
     top: -410px;
     left: 330px;
     transform: translateY(-680%);
-  }
+}
   
-  .paragraph2 pre{
+  .paragraphOneC pre{
     font-size: xx-large;
     font-family: 'Brush Script MT', cursive;
     color: #66136c ;
@@ -43,7 +41,7 @@
     transform: translateY(-400%);
   }
  
-  .paragraph3 pre{
+  .paragraphTwo pre{
     font-size: xx-large;
     font-family: 'Brush Script MT', cursive;
     top: -150px; 
@@ -53,7 +51,7 @@
     transform: translateY(-680%);
   }
   
-  .paragraph4 pre{
+  .paragraphTwoC pre{
     font-size: xx-large;
     font-family: 'Brush Script MT', cursive;
     color: #66136c ;

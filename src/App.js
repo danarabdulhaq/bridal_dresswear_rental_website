@@ -10,10 +10,9 @@ import {  Route, Routes } from 'react-router-dom';
 import Login from './components/pages/LoginPage';
 import Register from './components/pages/RegisterPage';
 
+
 function App() {
   return (
-
-
     <>
     <Navbar/>
       <Routes>
@@ -31,27 +30,11 @@ function App() {
 
 
     </>
+
+
   );
 
 }
  
 export default App;
 
-
-
-////////////////////////////////////////////////////////
-/*function App() {
-  return (
-<BrowserRouter>
- <Routes>
-
-          <Route path='/' element={<Design/>}/>
-          <Route index path='/pages/About' element ={<Design/>}/>
-          <Route path='/' element={<Contact/>}/>
-          <Route index path='/pages/About' element ={<Contact/>}/>
-
- </Routes>
-</BrowserRouter>
-
-);
-}*/

@@ -24,6 +24,7 @@ const Contact = () => {
 	   </div>
     );
  }
+ 
 
  // export
 export default Contact

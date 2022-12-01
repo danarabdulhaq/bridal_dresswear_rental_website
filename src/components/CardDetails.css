@@ -1,5 +1,5 @@
 *{
-	box-sizing: border-box;
+	
 	font-family: 'Times New Roman', Times, serif;
 }
 
@@ -19,19 +19,8 @@ body{
 
 }
 
-.container:after{
-	content: '';
-	position: absolute;
-	width: 100%;
-	height: 100%;
-    background: url("images/M3.jpg") no-repeat center;
-	background-size: cover;
-	filter: blur(50px);
-	z-index: -1;
-}
-
-.details-box{
-	width: 85%;
+.details{
+	width: 60%;
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
 	justify-content: center;
@@ -42,51 +31,74 @@ body{
 }
 
 .leftt{
-   
-	height: 45rem;
+    height: 100%;
+	padding: 100px;
+	background: url("images/testCardDetailsImg.jpg") no-repeat center;
+	background-size: cover;
 }
 
-.CDI{
+.img-fluid{
 	width: 100%;
 	height: 100%;
 }
 
 .rightt{
-
 	padding:20px;
 }
 
-.rent-btn{
-
+.btn-rent{
 	width: 30%;
-	padding: 0.5rem 1rem;
-	background-color: #7f589491;
-	color: #fff;
-	font-size: 1.2rem;
-	border: none;
-	outline: none;
+	color: #000000;
+	font-size: 1.1rem;
+	box-shadow: #000000;
 	cursor: pointer;
-	transition: .4s;
+	transition: .3s;
+	background-color: #e491ef86;
+	border: none;
+}
+
+.btn-rent:hover{
+	background-color: #c167cdb5;
+}
+
+.card-text{
 	position: relative;
-	top: 5cm;
+	padding: 10px;
+	margin-bottom: 100px;
+    color: #000000;
+	top: 3cm;
+}
+
+.card-text-c{
+	position: relative;
+	padding:12px;
+	margin-bottom: 100px;
+    color: #000000;
+	top: 1cm;
 	
 }
 
-.rent-btn:hover{
-
-	background-color: rgba(194, 89, 207, 0.907);
-}
-
-h3{
-	position: relative;
-	top: -5cm;
-	padding: 10px;
-	margin-bottom: 60px;
-    color: rgba(0, 0, 0, 0.91);
-}
-
-h4{
-	color: #4e4c4c;
-	position: relative;
+.card-text-t{
+	color: #000000;
+    position: relative;
     top: 3cm;
+	margin-bottom: 60px;
+}
+
+.card-title{
+    font-size: 2rem;
+	position: relative;
+	top: 1cm;
+	color: #000000;
+}
+
+@media screen and (max-width: 880px){
+	.details{
+		grid-template-columns: 1fr;
+	}
+	.leftt{
+		height: 500px;
+
+	}
+   
 }

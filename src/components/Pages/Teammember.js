@@ -1,25 +1,21 @@
-import Unknown from '/Unknown';
-import './Style.css';
+import './Style_aboutus.css';
+import Unknown from './Unknown.jpg';
 
 const team = (props) => {
 
     return(
         
-       <div>
-            <div className="team">
-                <div className="team_member">
-                    <div className="team_img">
-                        <img src={Unknown} alt="Team_image"/>
-                    </div>
 
-                        <h3>{props.name}</h3>
-                        <p>{props.definition}</p>
-                 
-                 </div>
-            </div>
+        <div class="team-card" >
+        <img src={Unknown}class="team-card-img" alt="person"/>
+        <div class="team-card-info">
+                <h4>{props.name}</h4>
+                    <p>{props.identification}</p>
+
+
         </div>
+      </div>
     );
     
     }
-export default team 
-
+export default team

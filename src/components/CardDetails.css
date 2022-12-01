@@ -1,5 +1,4 @@
 *{
-	
 	font-family: 'Times New Roman', Times, serif;
 }
 
@@ -19,7 +18,7 @@ body{
 
 }
 
-.details{
+.details-box{
 	width: 60%;
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
@@ -28,6 +27,9 @@ body{
 	align-items: center;
 	background-color: #fffffff7;
 	box-shadow: 0px 0px 19px 5px #0000006c;
+	position: relative;
+	justify-content: center;
+
 }
 
 .leftt{
@@ -55,34 +57,12 @@ body{
 	transition: .3s;
 	background-color: #e491ef86;
 	border: none;
+	position: relative;
+	top: 1rem;
 }
 
 .btn-rent:hover{
 	background-color: #c167cdb5;
-}
-
-.card-text{
-	position: relative;
-	padding: 10px;
-	margin-bottom: 100px;
-    color: #000000;
-	top: 3cm;
-}
-
-.card-text-c{
-	position: relative;
-	padding:12px;
-	margin-bottom: 100px;
-    color: #000000;
-	top: 1cm;
-	
-}
-
-.card-text-t{
-	color: #000000;
-    position: relative;
-    top: 3cm;
-	margin-bottom: 60px;
 }
 
 .card-title{
@@ -92,13 +72,48 @@ body{
 	color: #000000;
 }
 
+.description{
+	position: relative;
+	padding: 10px;
+	margin-bottom: 100px;
+    color: #000000;
+	top: 2cm;
+}
+
+.size{
+	color: #000000;
+	font-size: 1rem;
+	position: relative;
+	top: 0.5cm;
+}
+
+.sizeNum{
+  position:  relative ;
+  right: 1.5cm;
+  top: 2.8rem;
+
+}
+
+.sizesNum{
+	position:  relative ;
+	left: 1.5cm;
+	top: -1.3rem;
+
+}
+
+.color{
+	color: #000000;
+}
+
 @media screen and (max-width: 880px){
-	.details{
+
+	.details-box{
 		grid-template-columns: 1fr;
+		height: 100%;
 	}
 	.leftt{
 		height: 500px;
 
 	}
-   
+	
 }

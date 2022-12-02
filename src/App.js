@@ -1,3 +1,4 @@
+
 import './App.css';
 import React from 'react';
 import Footer from './components/footer';
@@ -11,8 +12,13 @@ import Login from './components/pages/LoginPage';
 import Register from './components/pages/RegisterPage';
 
 
-function App() {
+
+import './App.css';
+import Design from './components/Design'
+import Card from './components/card/Card'
+ function App() {
   return (
+
     <>
     <Navbar/>
       <Routes>
@@ -25,12 +31,6 @@ function App() {
 
       </Routes>
       <Footer/>
-
-
-
-
-    </>
-
 
   );
 

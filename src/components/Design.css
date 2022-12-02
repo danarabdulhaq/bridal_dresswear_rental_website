@@ -23,7 +23,7 @@
 
 .container-fluid pre{
    font-size: xx-large;
-   font-family: 'Brush Script MT', cursive;
+   font-family:  cursive;
    color: #66136c;
    position: relative;
     top: -410px;
@@ -33,7 +33,7 @@
   
   .paragraphOneC pre{
     font-size: xx-large;
-    font-family: 'Brush Script MT', cursive;
+    font-family:  cursive;
     color: #66136c ;
     position: relative;
     left: 400px;
@@ -43,7 +43,7 @@
  
   .paragraphTwo pre{
     font-size: xx-large;
-    font-family: 'Brush Script MT', cursive;
+    font-family:  cursive;
     top: -150px; 
     color: #66136c;
     position: relative;
@@ -53,7 +53,7 @@
   
   .paragraphTwoC pre{
     font-size: xx-large;
-    font-family: 'Brush Script MT', cursive;
+  font-family: cursive;
     color: #66136c ;
     position: relative;
     left: 720px;

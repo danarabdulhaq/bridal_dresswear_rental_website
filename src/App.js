@@ -1,5 +1,6 @@
 
 import './App.css';
+
 import React from 'react';
 import Footer from './components/footer';
 import Navbar from './components/Navbar';
@@ -35,6 +36,7 @@ import Card from './components/card/Card'
   );
 
 }
+
+
  
 export default App;
-

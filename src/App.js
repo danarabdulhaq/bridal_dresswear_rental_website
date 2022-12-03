@@ -1,21 +1,17 @@
 
 import './App.css';
 import React from 'react';
-import Footer from './components/footer';
-import Navbar from './components/Navbar';
-import Home from './components/pages/Home';
-import ContactUs from './components/pages/ContactUs';
-import Services from './components/pages/Services';
-import AboutUs from './components/pages/AboutUs';
+import Footer from './components/Footer/Footer';
+import Navbar from './components/Navbar/Navbar';
+import Home from './components/Pages/Home';
+import Services from './components/Pages/Services';
+import AboutUs from './components/Pages/AboutUs';
 import {  Route, Routes } from 'react-router-dom';
-import Login from './components/pages/LoginPage';
-import Register from './components/pages/RegisterPage';
+import Login from './components/Pages/LoginPage';
+import Register from './components/Pages/RegisterPage';
+import Contact from './components/Pages/ContactUs';
 
 
-
-import './App.css';
-import Design from './components/Design'
-import Card from './components/card/Card'
  function App() {
   return (
 
@@ -23,7 +19,7 @@ import Card from './components/card/Card'
     <Navbar/>
       <Routes>
         <Route path="/" element={<Home />}/>
-          <Route path="/ContactUs" element={<ContactUs />} />
+          <Route path="/ContactUs" element={<Contact />} />
           <Route path="/Services" element={<Services />} />
           <Route path="/AboutUs" element={<AboutUs />} />
           <Route path="/Login" element={<Login />} />
@@ -31,7 +27,7 @@ import Card from './components/card/Card'
 
       </Routes>
       <Footer/>
-
+</>
   );
 
 }

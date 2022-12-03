@@ -1,5 +1,5 @@
 import './ProductCard.css';
-import Btn from './Register-btn';
+import Btn from '../Register-btn/Register-btn';
 
 
 const ProductCard = (props)=> {

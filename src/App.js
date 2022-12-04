@@ -1,8 +1,6 @@
 import './App.css';
 import React from 'react';
-import Design from './components/Design'; 
 import Contact from './components/Contact'; 
-import Card from './components/Card';
 //import footer
 import Footer from './components/footer';
 //import { BrowserRouter, Route, Routes } from 'react-router-dom';
@@ -13,8 +11,7 @@ function App() {
   return (
 
 <>
-   <Card/>
-   <Design/>
+  
    <Contact/>
    <Cal/>
    <CardDetails/>

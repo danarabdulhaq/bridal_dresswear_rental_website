@@ -7,8 +7,6 @@ function Navbar() {
 
     
         <>
-        
-
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
         <Link  className="navbar-brand"to="/">La bella</Link>
   <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">

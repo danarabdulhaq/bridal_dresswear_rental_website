@@ -17,13 +17,13 @@ const About = () => {
                             <h3>
                             " Welcome dear La Belle , We hope to gain your trust Get to know us "
                             </h3>
-                            <img className="img-circle-head" src={require('../Images/Display_dresse.jpg')} alt="" />
+                            <img className="img-circle-head" src={require('./Display_dresse.jpg')} alt="" />
 
                                             
                                   <div class="container text-center">
                                             <div class="row">
                                             <div class="col-sm-4">
-                                                                    <img className='img-circle' src={require('../Images/img-history.jpg')} alt ="image"  />
+                                                                    <img className='img-circle' src={require('./img-history.jpg')} alt ="image"  />
                                                             
                                                             <h2> history :</h2>
 
@@ -38,7 +38,7 @@ const About = () => {
                                             <div class="row">
                                                 <div class="col-sm">
                                                                              
-                                                    <img className = 'img-circle-our-features' src = {require('../Images/img- Our features.jpg')} alt ="image"  />
+                                                    <img className='img-circle-our-features' src={require('./img- Our features.jpg')} alt ="image"  />
                                                     
                                                         <h2>  Our features :</h2>
                        

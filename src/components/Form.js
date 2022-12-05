@@ -1,6 +1,7 @@
-import FormPic from './images/FormPic.jpg'
-import Logo from './images/Logo.png'
-import Btn from './Register-btn';
+import FormPic from '../Images/FormPic.jpg'
+import Logo from '../Images/Logo.png'
+import Btn from '../Register-btn/Register-btn';
+
 
 
 const Form = (props)=> { 

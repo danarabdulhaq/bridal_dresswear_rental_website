@@ -4,6 +4,7 @@
 
 
 
+
 const TextBox = (props) => {
 
     return(
@@ -12,6 +13,7 @@ const TextBox = (props) => {
                 <input  class="form-control" id="floatingInput" />
                 <label for="floatingInput">{props.title}</label>
             </div>
+        
         
     );
 }

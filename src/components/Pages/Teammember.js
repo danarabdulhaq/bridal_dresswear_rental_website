@@ -1,5 +1,5 @@
 import './Style_aboutus.css';
-import Unknown from '../Images/Unknown.jpg';
+import Unknown from './Unknown.jpg';
 
 const team = (props) => {
 

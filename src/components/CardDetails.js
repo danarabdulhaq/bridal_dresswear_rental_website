@@ -1,9 +1,7 @@
 // import
 import React from "react"
 import './CardDetails.css'
-
 //function
-
 
 const CardDetails = () => {
   return(
@@ -24,24 +22,23 @@ const CardDetails = () => {
 				   </div>
 
 				   <div className="sizeNum">
-                      <p className="card-text"><small>length : 130 cm</small></p>
-				      <p className="card-text"><small>Waist : 74 cm</small></p>
+                      <p className="card-text"><small>length: 130cm</small></p>
+				      <p className="card-text"><small>Waist: 74cm</small></p>
 				   </div>
 
 				   <div className="sizesNum">
-				     <p className="card-text"><small>Shoulders : 70 cm</small></p>
-				     <p className="card-text"><small>Bust : 94 cm</small></p>
-				   </div>
+				     <p className="card-text"><small>Shoulders: 70cm</small></p>
+				     <p className="card-text"><small>Bust: 94cm</small></p>
+				    </div>
                     <div className="color">
 				     <p className="card-text">Color : White</p>
 					 </div>
-				   <button className="btn-rent"> Rent Now </button>
+					 <a href="..." className="btn-rent">Rent Now</a>
 		    </div>
 		</div>
 	</div>  
   );
 }
-
 
 
 //export

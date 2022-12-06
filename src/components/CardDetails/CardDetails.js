@@ -1,6 +1,7 @@
 // import
 import React from "react"
 import './CardDetails.css'
+
 //function
 
 const CardDetails = () => {

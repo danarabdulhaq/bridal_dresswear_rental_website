@@ -1,0 +1,91 @@
+
+*{
+    box-sizing: border-box;
+    outline: none;
+    border:none;
+     text-transform: capitalize;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+     transition: .2s linear;
+}
+
+.heading{
+    text-align: center;
+    font-size: 4rem;
+    color:#333;
+    padding:1rem;
+    margin:2rem ;
+    background:#b96ccc2a;
+}
+
+.heading span{
+   color: #b369ca;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.btn{
+    display: inline-block;
+    margin-top: 1rem;
+    border-radius: 5rem;
+    background:#434242;
+    color:#000000;
+    padding:.9rem 3.5rem;
+    cursor: pointer;
+    font-size: 1.7rem;
+}
+
+.btn:hover{
+   background-color: #b369ca7c;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    gap:2rem;
+    flex-wrap: wrap;
+    padding:2rem ;
+    padding-bottom: 3rem;
+}
+
+.video-container{
+    flex:1 1 40rem;
+    position: relative;
+}
+
+.video-container video{
+    width:100%;
+    border:1.5rem solid #ffffff;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.5rem 1rem #00000053;
+    height: 100%;
+    object-fit: cover;
+}
+
+.video-container h3{
+    position: absolute;
+    top:50%; 
+    transform: translateY(-50%);
+    font-size: 3rem;
+    background:#fff;
+    width:100%;
+    padding:1rem 2rem;
+    text-align: center;
+    mix-blend-mode: screen;
+}
+
+.content{
+    flex:1 1 40rem;
+}
+
+.content h3{
+    font-size: 3rem;
+    color:#1b1a1aca;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.content p{
+    font-size: 1.5rem;
+    color:#999;
+    padding:.5rem ;
+    padding-top: 1rem;
+    line-height: 1.5;
+}

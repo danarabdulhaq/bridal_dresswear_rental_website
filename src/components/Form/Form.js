@@ -1,5 +1,5 @@
-import FormPic from '../Images/FormPic.jpg'
-import Logo from '../Images/Logo.png'
+import FormPic from './Images/FormPic.jpg'
+import Logo from './Images/Logo.png'
 import Btn from '../Register-btn/Register-btn';
 
 

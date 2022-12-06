@@ -1,7 +1,7 @@
 // import
 import React from "react"
 import './ContactUs.css'
-import img3 from '../Images/M3.jpg'
+import img3 from '../images/M3.jpg'
 
 //function
 const Contact = () => {

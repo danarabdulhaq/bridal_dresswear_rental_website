@@ -1,27 +1,36 @@
+
 import './App.css';
-import './components/Service';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
-import Design from './components/Design';
+import React from 'react';
+import Footer from './components/Footer/Footer';
+import Navbar from './components/Navbar/Navbar';
+import Home from './components/Pages/Home';
+import Services from './components/Pages/Services';
+import {  Route, Routes } from 'react-router-dom';
+import Login from './components/Pages/LoginPage';
+import Register from './components/Pages/RegisterPage';
+import Contact from './components/Pages/ContactUs';
 
-function App() {
+
+ function App() {
   return (
 
+    <>
+    <Navbar/>
+      <Routes>
+        <Route path="/" element={<Home />}/>
+          <Route path="/ContactUs" element={<Contact />} />
+          <Route path="/Services" element={<Services />} />
+          <Route path="/Login" element={<Login />} />
+          <Route path="/Register" element={<Register />} />
 
-    <BrowserRouter>
-
-    <Routes>
-
-              <Route path='/' element={<Service/>}/>
-              <Route index path='/Service' element ={<Service/>}/>
-
-    </Routes>
-
-
-</BrowserRouter>
-
-
+      </Routes>
+      <Footer/>
+</>
   );
+
 }
 
+
+ 
 export default App;

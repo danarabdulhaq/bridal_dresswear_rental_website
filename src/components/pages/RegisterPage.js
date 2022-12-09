@@ -4,7 +4,7 @@ import '../Form/Form'
 const Register = ()=> { 
   
 return (
-<div className='register' style={{backgroundColor: "#9174a3"}}>  
+<div className='register' >  
    <Form text= "Sign into your account"> 
    <div className="form-outline mb-4 ">
         <input type="text" id="name" placeholder=" "className="text-input" autoComplete='off' required/>

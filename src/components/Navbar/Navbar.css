@@ -2,18 +2,14 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 8vh;
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
-    padding:0 srem; 
+    padding:0 rem; 
     position: fixed;
     width: 100%;
 
     }
     
-    .logo i{
-        margin: 0px; ;
-    }
     ul{
         display: flex;
         list-style-type: none;

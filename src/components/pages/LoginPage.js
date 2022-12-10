@@ -7,7 +7,7 @@ import '../Textbox/Textbox';
 const Login = ()=> { 
   
 return (
-<div className='register' style={{backgroundColor: "#9174a3"}}>  
+<div className='register' >  
    <Form text= "Login to your account"> 
    <div className="form-outline mb-4">
         <input type="email" id="loginEmail" className="text-input" autoComplete='off' required/>

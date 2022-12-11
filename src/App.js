@@ -8,7 +8,6 @@ import Login from './components/Pages/LoginPage';
 import Register from './components/Pages/RegisterPage';
 import Contact from './components/Pages/ContactUs';
 
-
  function App() {
   return (
 
@@ -20,10 +19,10 @@ import Contact from './components/Pages/ContactUs';
           <Route path="/Services" element={<Services />} />
           <Route path="/Login" element={<Login />} />
           <Route path="/Register" element={<Register />} />
-
       </Routes>
       <Footer/>
-</>
+      
+ </>
   );
 
 }

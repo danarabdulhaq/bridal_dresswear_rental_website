@@ -8,6 +8,7 @@ body{
 	width: 100%;
 }
 
+
 .container{
 	position: relative;
 	width: 100%;
@@ -15,7 +16,8 @@ body{
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	padding: 20px 100px;
+	padding: 50px 100px;
+
 }
 
 .container:after{
@@ -23,12 +25,14 @@ body{
 	position: absolute;
 	width: 100%;
 	height: 100%;
+    background: url("../images/M3.jpg") no-repeat center;
 	background-size: cover;
 	filter: blur(50px);
 	z-index: -1;
 }
 .contact-box{
 	max-width: 1050px;
+	height: 20cm;
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
 	justify-content: center;
@@ -40,9 +44,11 @@ body{
 
 .left{
 	height: 100%;
+	background: url("../images/M3.jpg") no-repeat center;
+	background-size: cover;
 }
 
-.imageThree{
+.img-fluid{
 	width: 100%;
 	height: 100%;
 }
@@ -56,7 +62,7 @@ h2{
 	position: relative;
 	padding: 10px;
 	margin-bottom: 60px;
-color: black;
+    color: black;
 }
 
 h2:after{
@@ -93,8 +99,8 @@ textarea{
 .btn{
 	width: 30%;
 	padding: 0.5rem 1rem;
-	background-color: #7f589491;
-	color: #fff;
+	background-color: #b876de91;
+	color: rgba(0, 0, 0, 0.711);
 	font-size: 1.1rem;
 	border: none;
 	outline: none;
@@ -103,5 +109,16 @@ textarea{
 }
 
 .btn:hover{
-    background-color:#b052e2;
+    background-color:#cf7ddbcc;
+}
+
+
+@media screen and (max-width: 880px){
+	
+	.contact-box{
+		grid-template-columns: 1fr;
+	}
+	.left{
+		height: 180px;
+	}
 }

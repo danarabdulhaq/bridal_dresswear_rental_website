@@ -1,5 +1,5 @@
 import ProductCard from './ProductCard';
-
+import './DisplayDress.css';
 import chiffon_dress from './Product_photos/chiffon_dress.jpg';
 import fluffy_dress from './Product_photos/fluffy_dress.jpg';
 import High_neck_dress from './Product_photos/High_neck_dress.jpg';
@@ -28,15 +28,17 @@ const my_Data = [{img :  chiffon_dress ,  name : "chiffon dress" , details : " s
 
                                    <div>
 
-                                    {
+                                            {
 
-                                    my_Data.map((item , index )=> {
+                                            my_Data.map((item , index )=> {
 
-                                        return(
-                                            <ProductCard key = {index} img = {item.img} name = {item.name} details = {item.details} price = {item.price} />
-                                        )
-                                        
-                                    })
+                                                return(
+                                                    
+                                                    <ProductCard key = {index} img = {item.img} name = {item.name} details = {item.details} price = {item.price} />
+                                            
+                                                )
+                                                
+                                            })
 
                                     }
 

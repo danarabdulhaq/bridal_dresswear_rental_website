@@ -17,7 +17,7 @@ const Preloader = ()=> {
     
             <div className="role">
                 <div className="block2"></div>
-                <p id='slogan'>The place you need</p>
+                <p id='slogan'>bridal worth it</p>
             </div>
     
         </div>

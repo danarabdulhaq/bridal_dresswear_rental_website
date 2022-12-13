@@ -11,6 +11,7 @@ import Login from './components/Pages/LoginPage';
 import Register from './components/Pages/RegisterPage';
 import Contact from './components/Pages/ContactUs';
 import About from './components/Pages/Aboutuspage'
+
  function App() {
   const [loading, setLoading] = useState(false);
   useEffect(() => {

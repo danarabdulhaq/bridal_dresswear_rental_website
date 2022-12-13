@@ -9,6 +9,7 @@ import {  Route, Routes } from 'react-router-dom';
 import Login from './components/Pages/LoginPage';
 import Register from './components/Pages/RegisterPage';
 import Contact from './components/Pages/ContactUs';
+import About from './components/Pages/Aboutuspage'
 
 
  function App() {
@@ -30,11 +31,12 @@ import Contact from './components/Pages/ContactUs';
 </div>
 ) : (
   <div className="main-content">
-    <Navbar/>
+     <Navbar/>
       <Routes>
         <Route path="/" element={<Home />}/>
           <Route path="/ContactUs" element={<Contact />} />
           <Route path="/Services" element={<Services />} />
+          <Route path="/AboutUs" element={<About />} />
           <Route path="/Login" element={<Login />} />
           <Route path="/Register" element={<Register />} />
       </Routes>

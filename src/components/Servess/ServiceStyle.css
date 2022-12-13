@@ -1,0 +1,130 @@
+.headerservice{
+
+  text-align: center;
+  padding: 50px;
+}
+.welcome{
+text-align: center;
+ font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.dressservice-img{
+position: relative;
+margin-top: 100px;
+width: 400px;
+/* right: -100px; */
+height: 600px;
+}
+
+.Dresses-rental{
+
+  position: relative;
+  right: 1000px;
+}
+
+@media screen and (min-width: 1250px){
+
+.tit-Dresses-rental{
+
+  position: relative;
+    bottom: 400px;
+    right: -800px;
+}}
+
+@media screen and (min-width: 1250px){
+
+.dresstext{
+
+  position: relative;
+    bottom: 300px;
+    right: -750px;
+    width: 400px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}}
+@media screen and (min-width: 1250px){
+
+.flowerservice-img{
+
+  position: relative;
+  right:0px;
+  margin-top: -150px;
+  width: 400px;
+  height: 600px;
+
+}}
+@media screen and (min-width: 1250px){
+
+.tit-flower-rental{
+  position: relative;
+  bottom: 400px;
+  right: 600px;
+}}
+
+@media screen and (min-width: 1250px){
+
+.flowertext{
+
+  position: relative;
+    bottom:300px;
+    width: 500px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    right: 620px;
+}}
+@media screen and (min-width: 1250px){
+.accessorisservice-img{
+  position: relative;
+    margin-top: -60px;
+    width: 400px;
+    /* right: 120px;  */
+    height: -600px;
+}}
+
+.accessoris-rental{
+  position: relative;
+  right: 1000px;
+}
+@media screen and (min-width: 1250px){
+.tit-accessoris-rental{
+  position: relative;
+    bottom: 400px;
+    right: -800px;
+}}
+@media screen and (min-width: 1250px){
+.accessoristext{
+  position: relative;
+    bottom: 300px;
+    right: -750px;
+    width: 400px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}}
+ .delivery-rental{
+  position: relative;
+  right: 1000px;
+  margin: 50px;
+} 
+@media screen and (min-width: 1250px){
+.deliveryservice-img{
+  position: relative;
+  right:0px;
+  margin-top: -150px;
+  width: 400px;
+  height: 600px;
+}}
+
+@media screen and (min-width: 1250px){
+  .tit-delivery-rental{
+    
+    position: relative;
+    bottom: 400px;
+    right: 600px;
+}}
+@media screen and (min-width: 1250px){
+.deliverytext{
+  position: relative;
+    bottom:300px;
+    width: 500px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    right: 620px;
+}}

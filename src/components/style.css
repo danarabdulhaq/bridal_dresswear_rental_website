@@ -1,0 +1,101 @@
+
+
+
+.text-r-up{
+
+    display: flex;
+    position: absolute;
+    right: 10px;
+    text-align: left;
+    bottom: -85em;
+    width: 382px;
+    height: 200px;
+  }
+  
+  
+    .text-r-dow{
+  
+      display: flex;
+      position: absolute;
+      right: 375px;
+      text-align: left;
+      bottom: -43em;
+      width: 382px;
+      height: 200px;
+    }
+  
+    
+    .text-r-cent{
+  
+      display: flex;
+      position: absolute;
+      right: 1105px;
+      text-align: left;
+      bottom: -104em;
+      width: 382px;
+      height: 200px;
+  }
+    
+  
+  
+    .text-l-up{
+      text-align: left;
+      display: flex;
+      position: absolute;
+      right: 60em;
+      bottom: -2em;
+      width: 382px;
+      height: 200px;
+    }
+  
+    
+    .text-l-up1{
+      text-align: left;
+      display: flex;
+      position: absolute;
+      right: 3em;
+      bottom: -27em;
+      width: 382px;
+      height: 200px;
+  }
+    
+  
+    
+    .text-l-cent{
+      text-align: left;
+      display: flex;
+      position: absolute;
+      right:66em;
+      bottom: -57em;
+      width: 382px;
+      height: 200px;
+  }
+  
+  
+    .images{
+    
+      padding-top: 50px;
+      text-align: center;
+      border-radius: 50%;
+    
+    
+    }
+  
+  
+  
+    .head{
+  
+      font-family: 'Brush Script MT', cursive;
+      text-align: center;
+      padding: 20px;
+    
+    }
+  
+    .text-tit{
+      font-family: 'Roboto Mono', monospace;
+      width: 80%;
+      text-align: center;
+      padding: 40px;
+      right: 120px;
+  
+    }

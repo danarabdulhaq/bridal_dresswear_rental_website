@@ -1,3 +1,4 @@
+
 import React, { useState, useEffect } from 'react';
 import Preloader from './components/Preloader/Preloader';
 import './App.css';
@@ -11,9 +12,7 @@ import Register from './components/Pages/RegisterPage';
 import Contact from './components/Pages/ContactUs';
 import About from './components/Pages/Aboutuspage'
 
-
  function App() {
-
   const [loading, setLoading] = useState(false);
   useEffect(() => {
     setLoading(true);
@@ -21,9 +20,7 @@ import About from './components/Pages/Aboutuspage'
       setLoading(false);
     }, 5300);
   }, []);
-
   return (
-
     <div className='App'>
       {loading ? (
 <div className="loader-container">
@@ -41,13 +38,8 @@ import About from './components/Pages/Aboutuspage'
           <Route path="/Register" element={<Register />} />
       </Routes>
       <Footer/>
-      
 </div>)}
 </div>
   );
-
 }
-
-
- 
 export default App;

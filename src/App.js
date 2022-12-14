@@ -13,7 +13,6 @@ import CardDetails from './components/CardDetails/CardDetails';
 import contents from './components/CardDetails/contents'
 
 
-
  function App() {
 
   const [loading, setLoading] = useState(false);

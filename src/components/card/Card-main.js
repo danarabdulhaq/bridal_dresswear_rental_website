@@ -1,21 +1,19 @@
 //imports
 import "./card.css";
-
+import Btn from '../BTN/Btn'
 //function
 const Card = props => {
   return (
-
  <div className="card">
-  <div calssName="imgbox">
-  <img src={props.imgsrc}className="card-img-top"></img>   
+  <div className="imgbox">
+  <img src={props.imgsrc}className="card-img-top" alt=''></img>   
   </div>
   <div className="content">
-  <p calssName="card-text">{props.text}</p>
-  <a href={props.link}>lets goo</a>
+  <p className="card-text">{props.text}</p>
+<Btn/>
     </div>
-   </div>
+      </div>
 );
 };
-
 //Export
  export default Card

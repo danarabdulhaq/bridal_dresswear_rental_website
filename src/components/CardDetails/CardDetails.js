@@ -4,6 +4,7 @@ import './CardDetails.css'
 
 //function
 const CardDetails = (props) => {
+	
   return(
 	
 	<div className="container" >

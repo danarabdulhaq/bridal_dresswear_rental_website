@@ -1,4 +1,6 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
+import Preloader from './components/Preloader/Preloader';
+import './App.css';
 import Footer from './components/Footer/Footer';
 import Navbar from './components/Navbar/Navbar';
 import Home from './components/Pages/Home';
@@ -11,10 +13,26 @@ import CardDetails from './components/CardDetails/CardDetails';
 import contents from './components/CardDetails/contents'
 
 
+
  function App() {
+
+  const [loading, setLoading] = useState(false);
+  useEffect(() => {
+    setLoading(true);
+    setTimeout(() => {
+      setLoading(false);
+    }, 5300);
+  }, []);
+
   return (
 
-    <>
+    <div className='App'>
+      {loading ? (
+<div className="loader-container">
+<Preloader />
+</div>
+) : (
+  <div className="main-content">
     <Navbar/>
       <Routes>
         <Route path="/" element={<Home />}/>
@@ -43,7 +61,8 @@ import contents from './components/CardDetails/contents'
                 ))}
             </div>
       
- </>
+</div>)}
+</div>
   );
 
 }

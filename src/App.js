@@ -11,6 +11,9 @@ import Login from './components/Pages/LoginPage';
 import Register from './components/Pages/RegisterPage';
 import Contact from './components/Pages/ContactUs';
 import About from './components/Pages/Aboutuspage'
+import DisplayDress from './components/DisplayDress';
+import Displayaccessories from './components/Accessoris/Displayaccessories';
+import DisplayFlower from './components/Flower/DisplayFlower'
 
  function App() {
   const [loading, setLoading] = useState(false);
@@ -36,6 +39,9 @@ import About from './components/Pages/Aboutuspage'
           <Route path="/AboutUs" element={<About />} />
           <Route path="/Login" element={<Login />} />
           <Route path="/Register" element={<Register />} />
+          <Route path="/DisplayDress" element={<DisplayDress/>}/>
+          <Route path="/Displayaccessories" element={<Displayaccessories />}/>
+          <Route path="/DisplayFlower" element={<DisplayFlower/>}  />
       </Routes>
       <Footer/>
 </div>)}

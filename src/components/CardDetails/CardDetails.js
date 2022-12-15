@@ -1,3 +1,4 @@
+
 // import
 import React from "react"
 import './CardDetails.css'
@@ -45,3 +46,5 @@ const CardDetails = (props) => {
 
 //export
 export default CardDetails
+
+

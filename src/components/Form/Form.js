@@ -1,3 +1,4 @@
+
 import Logo from './Images/Logo.png'
 import FormPic from './Images/FormPic.jpg'
 import Btn from '../Register-btn/Register-btn';
@@ -39,3 +40,4 @@ const Form = (props)=> {
 }
 //export
 export default Form;
+

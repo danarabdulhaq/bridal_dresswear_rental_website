@@ -6,9 +6,10 @@ import './Contact.css';
 const Contact = () => {
     return(
 		
-	<div className="container">
+	<div className="container-cc"  >
 		<div className="contact-box">
-		<div className="left"></div>
+		<div className="left">
+		</div>
 			<div className="right">
 			  <h2>Contact Us</h2>
 			  <input type="text" className="field" placeholder="Your Name"></input>

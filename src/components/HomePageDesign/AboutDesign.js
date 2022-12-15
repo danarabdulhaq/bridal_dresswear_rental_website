@@ -3,7 +3,6 @@ import React from "react";
 import aboutVid from './images/aboutVideo.mp4'
 import './AboutDesign.css'
 
-
 //functions
 const AboutDesign=()=>{
 return(

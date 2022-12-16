@@ -18,6 +18,7 @@ body{
 
 }
 
+
 .details-box{
 	width: 60%;
 	display: grid;
@@ -35,7 +36,6 @@ body{
 .leftt{
     height: 100%;
 	padding: 100px;
-	background: url("images/testCardDetailsImg.jpg") no-repeat center;
 	background-size: cover;
 }
 

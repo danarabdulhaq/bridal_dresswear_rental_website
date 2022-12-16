@@ -8,18 +8,17 @@ import './AboutDesign.css'
 const AboutDesign=()=>{
 return(
 
-<div className="about" >
+ <div className="about" >
+    <h1 className="heading"> The coolest <span> BRIDEL </span> crew U will ever meet </h1>
 
- <h1 className="heading"> <span> Welcome </span> here </h1>
-
- <div className="row">
+  <div className="row">
 
     <div className="video-container">
        <video src={aboutVid} autoPlay loop muted  ></video>
         <h3>Best wishes</h3>
     </div>
 
-    <div className="content">
+    <div className="content-c"  >
         <h3>Why la belle</h3>
         <p>We offer you the latest, most beautiful and elegant dresses, accessories and packages to get the most beautiful look on your special day.</p>
         <p>Best is yet to come, cherish each moment along this journey .</p>

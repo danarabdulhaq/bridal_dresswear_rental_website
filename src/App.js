@@ -10,7 +10,13 @@ import {  Route, Routes } from 'react-router-dom';
 import Login from './components/Pages/LoginPage';
 import Register from './components/Pages/RegisterPage';
 import Contact from './components/Pages/ContactUs';
+
+import CardDetails from './components/CardDetails/CardDetails';
+import contents from './components/CardDetails/contents'
+
+
 import About from './components/Pages/Aboutuspage'
+
 
  function App() {
   const [loading, setLoading] = useState(false);
@@ -38,6 +44,27 @@ import About from './components/Pages/Aboutuspage'
           <Route path="/Register" element={<Register />} />
       </Routes>
       <Footer/>
+
+
+      <div className='App'>
+                {contents.map(contents => (
+                    <CardDetails 
+                       
+                        img={contents.img}
+                        title={contents.title}
+                        descri={contents.descri}
+                        size={contents.size}
+                        len={contents.len}
+                        wiedth={contents.wiedth}
+                        shou={contents.shou}
+                        bus={contents.bus}
+                        color={contents.color}
+
+                    />
+                ))}
+            </div>
+      
+
 </div>)}
 </div>
   );

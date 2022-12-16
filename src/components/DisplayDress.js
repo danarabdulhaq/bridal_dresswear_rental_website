@@ -1,4 +1,4 @@
-import ProductCard from './ProductCard';
+import ProductCard from './ProductCard/ProductCard';
 
 
 import './DisplayDress.css';
@@ -29,7 +29,7 @@ const my_Data = [{img :  chiffon_dress ,  name : "chiffon dress" , details : " s
 
                         return(
 
-                                   <div>
+                                <div>
 
                                     {
 

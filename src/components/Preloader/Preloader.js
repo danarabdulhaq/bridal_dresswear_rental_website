@@ -7,7 +7,7 @@ const Preloader = ()=> {
 
     return (
     
-    <div className="container">
+    <div className="container" id="Preloader">
         <div className="box">
     
             <div className="title">

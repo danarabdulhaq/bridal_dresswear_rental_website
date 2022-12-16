@@ -1,6 +1,6 @@
 
 
-import ProductCard from '../ProductCard';
+import ProductCard from '../ProductCard/ProductCard';
 import fa from './photo/fa.jpg';
 import fc from './photo/fc.jpg';
 import fd from './photo/fd.jpg';

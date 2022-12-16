@@ -1,6 +1,6 @@
 //import
 import React from "react";
-import aboutVid from './images/aboutVideo.mp4'
+import aboutVid from '../images/aboutVideo.mp4'
 import './AboutDesign.css'
 
 //functions

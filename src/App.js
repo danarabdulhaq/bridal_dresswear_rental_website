@@ -16,6 +16,9 @@ import contents from './components/CardDetails/contents'
 
 
 import About from './components/Pages/Aboutuspage'
+import DisplayDress from './components/DisplayDress';
+import Displayaccessories from './components/Accessoris/Displayaccessories';
+import DisplayFlower from './components/Flower/DisplayFlower'
 
 
  function App() {
@@ -42,6 +45,9 @@ import About from './components/Pages/Aboutuspage'
           <Route path="/AboutUs" element={<About />} />
           <Route path="/Login" element={<Login />} />
           <Route path="/Register" element={<Register />} />
+          <Route path="/DisplayDress" element={<DisplayDress/>}/>
+          <Route path="/Displayaccessories" element={<Displayaccessories />}/>
+          <Route path="/DisplayFlower" element={<DisplayFlower/>}  />
       </Routes>
       <Footer/>
 

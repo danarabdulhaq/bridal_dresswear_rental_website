@@ -1,6 +1,7 @@
 import React from "react";
 import Slider from "../Slider/Slider"
 import HomeDesign from '../HomePageDesign/AboutDesign'
+import CardMain from "../Card-main/card-main";
 
 
 const Home=()=>
@@ -8,7 +9,7 @@ const Home=()=>
 return(
 <>
     <Slider/>
-        <card_main/>
+        <CardMain/>
             <div className="my-5" id="vid">
                 <HomeDesign/>
             </div>

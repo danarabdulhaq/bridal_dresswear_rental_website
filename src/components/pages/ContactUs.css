@@ -1,15 +1,5 @@
-*{
-	box-sizing: border-box;
-	font-family: 'Times New Roman', Times, serif;
-}
 
-body{
-	height: 100px;
-	width: 100%;
-}
-
-
-.container{
+#coBox{
 	position: relative;
 	width: 100%;
 	height: 100%;
@@ -20,7 +10,7 @@ body{
 
 }
 
-.container:after{
+#coBox:after{
 	content: '';
 	position: absolute;
 	width: 100%;

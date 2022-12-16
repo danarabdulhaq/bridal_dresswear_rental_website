@@ -1,4 +1,4 @@
-import ProductCard from '../ProductCard';
+import ProductCard from '../ProductCard/ProductCard';
 
 import necklec from './prodectaccessories/necklec.jpg';
 import Ba from './prodectaccessories/Ba.jpg'

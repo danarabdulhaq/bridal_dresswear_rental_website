@@ -5,7 +5,7 @@ import './App.css';
 import Footer from './components/Footer/Footer';
 import Navbar from './components/Navbar/Navbar';
 import Home from './components/Pages/Home';
-import Services from './components/Pages/Services';
+import Services from './components/Pages/Servess/Service';
 import {  Route, Routes } from 'react-router-dom';
 import Login from './components/Pages/LoginPage';
 import Register from './components/Pages/RegisterPage';

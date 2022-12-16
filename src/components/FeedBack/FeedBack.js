@@ -2,6 +2,7 @@
 import './FeedBack.css'
 import FBI from './FBImg/feedBack.jpg'
 import 'animate.css';
+
 //function
 
 const FeedBack =()=>{

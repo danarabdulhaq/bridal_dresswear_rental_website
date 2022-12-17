@@ -4,7 +4,6 @@ import aboutVid from './homeV/aboutVideo.mp4'
 import './AboutDesign.css'
 import { Link } from "react-router-dom";
 
-
 //functions
 const AboutDesign=()=>{
 return(

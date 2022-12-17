@@ -1,15 +1,15 @@
 import './card-main.css'; 
 import dress from './images/dress.jpg';
-import hair_collar from './images/hair collar.jpg';
 import { Link } from 'react-router-dom';
 import whiteFlower from "../images/whiteFlower.jpg"
+import earring from './images/earring.jpg'
 const CardMain = ()=> {
     return (
 
 <div className="container container-card-main">
   <div className="box mx-4">
-    <div className="imgBxCard">
-    <img src= {whiteFlower} onClick={<Link to="/DisplayFlower"/>} alt=""/>
+    <div className="imgBxCard"onClick={<Link to="/DisplayFlower"/>}>
+    <img src= {whiteFlower}  alt=""/>
         </div>
           <div className="content-card-main">
             <h2>Bouquets Of roses</h2>
@@ -25,7 +25,7 @@ const CardMain = ()=> {
   </div>
   <div className="box mx-4">
     <div className="imgBxCard">
-    <img src={hair_collar} onClick={<Link to= "/Displayaccessories"></Link>} alt=""/>
+    <img src={earring} onClick={<Link to= "/Displayaccessories"></Link>} alt=""/>
         </div>
           <div className="content-card-main">
             <h2>Accessories</h2>

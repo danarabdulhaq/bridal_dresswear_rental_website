@@ -43,9 +43,7 @@ import DisplayFlower from './components/Flower/DisplayFlower'
           <Route path="/DisplayDress" element={<DisplayDress/>}/>
           <Route path="/Displayaccessories" element={<Displayaccessories />}/>
           <Route path="/DisplayFlower" element={<DisplayFlower/>}  />
-
-
-
+          
       </Routes>
       <Footer/>
 

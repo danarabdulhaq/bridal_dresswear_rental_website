@@ -6,7 +6,11 @@ import './ContactUs.css';
 const Contact = () => {
     return(
 		
+
 	<div className="container-cc"  >
+
+	<div className="container" id="coBox">
+
 		<div className="contact-box">
 		<div className="left">
 		</div>

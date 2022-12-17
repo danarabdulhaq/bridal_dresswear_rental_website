@@ -12,7 +12,6 @@ const Footer = () =>  {
         <span>Get connected with us on social networks:</span>
     
         </div>
-    
         <div>
           <Link to={""} className="me-4 link-secondary">
             <i className="fab fa-facebook-f"></i>
@@ -28,7 +27,6 @@ const Footer = () =>  {
           </Link>
         </div>
       </section>
-    
       <section className="">
         <div className="container text-center text-md-start mt-5">
           <div className="row mt-3">
@@ -46,13 +44,13 @@ const Footer = () =>  {
                 Products
               </h6>
               <p>
-              <Link className="text-reset" to={""}>Dress</Link>
+              <Link className="text-reset" to={"/DisplayDress"}>Dress</Link>
               </p>
               <p>
-                <Link className="text-reset"to={''}>Roses</Link>
+                <Link className="text-reset"to={'/DisplayFlower'}>Roses</Link>
               </p>
               <p>
-                <Link className="text-reset" to={''}>Accessories</Link>
+                <Link className="text-reset" to={'/Displayaccessories'}>Accessories</Link>
               </p>
             </div>
             
@@ -70,7 +68,7 @@ const Footer = () =>  {
                 <Link className="text-reset"to={'/Services'}>Services</Link>
               </p>
               <p>
-                <Link className="text-reset"to={''}>AboutUs</Link>
+                <Link className="text-reset"to={'/AboutUs'}>AboutUs</Link>
               </p>
               <p>
                 <Link className="text-reset"to={'/ContactUs'}>ContactUs</Link>

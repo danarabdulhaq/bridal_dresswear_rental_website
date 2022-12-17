@@ -2,7 +2,7 @@
 import Logo from './Images/Logo.png'
 import FormPic from './Images/FormPic.jpg'
 import Btn from '../Register-btn/Register-btn';
-
+import './Form.css';
 
 
 const Form = (props)=> { 

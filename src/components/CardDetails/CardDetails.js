@@ -8,7 +8,7 @@ const CardDetails = (props) => {
 	
   return(
 	
-	<div className="container" >
+	<div className="container" id="detBox">
 		<div className="details-box">
 		     <div className="leftt">
 				<img src={props.img} alt="..." ></img>

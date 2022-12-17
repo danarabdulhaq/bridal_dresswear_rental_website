@@ -95,12 +95,6 @@ right: 0;
   width: 400px;
   text-align: center;
 }
-.card{
-border: 1px solid #4e1054;
-box-shadow: #4e1054 ;
-width: 400px;
-margin:10px ; 
-}
 .card_group{
   width:5%;
   text-align: center;

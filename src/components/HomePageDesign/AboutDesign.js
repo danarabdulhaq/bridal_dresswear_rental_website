@@ -12,7 +12,7 @@ return(
  <div className="about" >
     <h1 className="heading"> The coolest <span> BRIDEL </span> crew U will ever meet </h1>
 
-  <div className="row">
+  <div className="row" id="row">
 
     <div className="video-container">
        <video src={aboutVid} autoPlay loop muted  ></video>
@@ -23,7 +23,7 @@ return(
         <h3>Why la belle</h3>
         <p>We offer you the latest, most beautiful and elegant dresses, accessories and packages to get the most beautiful look on your special day.</p>
         <p>Best is yet to come, cherish each moment along this journey .</p>
-        <Link to="/AboutUs"className="btn">Learn more</Link>
+        <Link to="/AboutUs"className="btn" id="HDStyle">Learn more</Link>
     </div>
 
  </div>

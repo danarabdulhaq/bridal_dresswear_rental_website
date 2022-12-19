@@ -16,10 +16,10 @@ const About = () => {
                             </h3>
 
 
-                                   <div class="d-flex flex-row mb-1">
-                                    <div class="p-2">      
+                                   <div className="d-flex flex-row mb-1">
+                                    <div className="p-2">      
                                     
-                                         <img className='img-fluid his-img' src={require('../images/img-history.jpg')} alt ="image1"  />
+                                         <img className='img-fluid his-img' src={require('../images/img-history.jpg')} alt ="image1"   id="imgFluid"/>
                                                             
                                                             <div>
                                                             <h2 className="tit-his"> History </h2>
@@ -30,9 +30,9 @@ const About = () => {
                                                             </div>             
                                   </div>
                                     </div>
-                                            <div class="d-flex flex-row-reverse">
-                                            <div class="p-2"> 
-                                            <img className='left-img img-fluid ' src={require('../images/img- Our features.jpg')} alt ="image2"/>
+                                            <div className="d-flex flex-row-reverse">
+                                            <div className="p-2"> 
+                                            <img className='left-img img-fluid ' id="imgFluid" src={require('../images/img- Our features.jpg')} alt ="image2"/>
                                                             
                                                       
 

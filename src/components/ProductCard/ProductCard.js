@@ -1,5 +1,5 @@
 import './ProductCard.css';
-
+import Btn from '../Register-btn/Register-btn';
 const ItemCard = (props)=> {
 
     const flip = () => {
@@ -22,7 +22,7 @@ const ItemCard = (props)=> {
               <hr id='item-hr'/>
               <p>{props.details}</p>
               <p class="item-price"><b>${props.price}</b></p>
-
+<Btn title="more details" />
             </div></div>
          </div> </div>);
           

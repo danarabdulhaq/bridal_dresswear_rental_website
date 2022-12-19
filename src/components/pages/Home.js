@@ -9,7 +9,8 @@ const Home=()=>
 return(
 <>
     <Slider/>
-        <CardMain/>
+    <div className="mx-5">
+        <CardMain/></div>
             <div className="my-5" id="vid">
                 <HomeDesign/>
             </div>

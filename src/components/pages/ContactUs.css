@@ -4,7 +4,9 @@
 	font-family: 'Times New Roman', Times, serif;
 }
 
-.container-cc{
+
+
+
 
 
 #coBox{
@@ -20,7 +22,6 @@
 }
 
 
-.container-cc:after{
 
 #coBox:after{
 
@@ -33,6 +34,7 @@
 	filter: blur(50px);
 	z-index: -1;
 }
+
 .contact-box{
 	max-width: 1050px;
 	height: 20cm;

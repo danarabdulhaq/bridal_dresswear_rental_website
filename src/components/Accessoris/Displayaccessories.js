@@ -1,9 +1,4 @@
 import ProductCard from '../ProductCard/ProductCard';
-import './components/DisplayDress.css';
-import Displayaccessories from './Data/Displayaccessories.js';
-import DataForAccessoris from './components/Data/DataForAccessoris.js';
-import access from './prodectaccessories/access.jpg';
-
 
 const Displayaccessories= () =>{
 

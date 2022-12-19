@@ -5,12 +5,17 @@ import './App.css';
 import Footer from './components/Footer/Footer';
 import Navbar from './components/Navbar/Navbar';
 import Home from './components/Pages/Home';
-import Services from './components/Pages/Services';
+import Services from './components/Pages/Servess/Service';
 import {  Route, Routes } from 'react-router-dom';
 import Login from './components/Pages/LoginPage';
 import Register from './components/Pages/RegisterPage';
 import Contact from './components/Pages/ContactUs';
 import About from './components/Pages/Aboutuspage'
+import DisplayDress from './components/DisplayDress';
+import Displayaccessories from './components/Accessoris/Displayaccessories';
+import DisplayFlower from './components/Flower/DisplayFlower'
+
+
  function App() {
   const [loading, setLoading] = useState(false);
   useEffect(() => {
@@ -35,8 +40,14 @@ import About from './components/Pages/Aboutuspage'
           <Route path="/AboutUs" element={<About />} />
           <Route path="/Login" element={<Login />} />
           <Route path="/Register" element={<Register />} />
+          <Route path="/DisplayDress" element={<DisplayDress/>}/>
+          <Route path="/Displayaccessories" element={<Displayaccessories />}/>
+          <Route path="/DisplayFlower" element={<DisplayFlower/>}  />
+          
       </Routes>
       <Footer/>
+
+
 </div>)}
 </div>
   );

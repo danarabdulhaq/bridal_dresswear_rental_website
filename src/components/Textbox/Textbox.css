@@ -1,78 +1,10 @@
 .form-outline {
 
-
-position: relative;
-
-}
-
-.label{
-
-position: absolute ;
-left: 10px;
-top: 14px;
-transition: all 0.2s;
-padding: 0 2px;
-z-index: 1;
-color: rgb(0, 0, 0);
-
-}
-
-.text-input{
-padding: 0.8rem;
-width: 100%;
-height: 100%;
-border: 2px solid  #9174a3;
-background: rgb(255, 255, 255);
-border-radius: 5px;
-font-size: 18px;
-outline: none;
-transition: all .3s;
-
-}
-
-.label::before{
-content: "";
-height: 5px;
-background-color: rgb(255, 255, 255);
-position: absolute;
-left: 0;
-top: 10px;
-width: 100%;
-z-index: -1;
-}
-.label::after{
-
-z-index: -1;
-color: rgb(255, 255, 255);
-
-}
-
-.text-input:focus{
-    border: 2px solid #9174a3;
-  
-}
-.text-input:focus ~ .label,
-.text-input:not(:placeholder-shown).text-input:not(:focus)
-.label{
-  position: relative;
-    top: -10px;
-    color: #9174a3;
-    font-size: 14px;
-}
-
-
-
-
-
-
-
-
-
+    position: relative;
     
+}
     
-    
-    
-    .label{
+.form-label{
     
     position: absolute ;
     left: 10px;
@@ -97,7 +29,7 @@ color: rgb(255, 255, 255);
     
     }
     
-    .label::before{
+.form-label::before{
     content: "";
     height: 5px;
     background-color: rgb(255, 255, 255);
@@ -107,7 +39,7 @@ color: rgb(255, 255, 255);
     width: 100%;
     z-index: -1;
     }
-    .label::after{
+    .form-label::after{
     
     z-index: -1;
     color: rgb(255, 255, 255);
@@ -118,20 +50,11 @@ color: rgb(255, 255, 255);
         border: 2px solid #9174a3;
       
     }
-    .text-input:focus ~ .label,
+    .text-input:focus ~ .form-label,
     .text-input:not(:placeholder-shown).text-input:not(:focus)
-    ~.label{
+    ~.form-label{
     
         top: -10px;
         color: #9174a3;
         font-size: 14px;
     }
-    
-    
-    
-
-    
-    
-
-    
-

@@ -1,15 +1,13 @@
+
 *{
 	box-sizing: border-box;
 	font-family: 'Times New Roman', Times, serif;
 }
 
-body{
-	height: 100px;
-	width: 100%;
-}
 
 
-.container{
+#coBox{
+
 	position: relative;
 	width: 100%;
 	height: 100%;
@@ -20,16 +18,20 @@ body{
 
 }
 
-.container:after{
+
+
+#coBox:after{
+
 	content: '';
 	position: absolute;
 	width: 100%;
 	height: 100%;
-    background: url("../images/M3.jpg") no-repeat center;
+    background: url("../Pages/contactUsImg/M3.jpg") no-repeat center;
 	background-size: cover;
 	filter: blur(50px);
 	z-index: -1;
 }
+
 .contact-box{
 	max-width: 1050px;
 	height: 20cm;
@@ -44,11 +46,11 @@ body{
 
 .left{
 	height: 100%;
-	background: url("../images/M3.jpg") no-repeat center;
+	background: url("../Pages/contactUsImg/M3.jpg") no-repeat center;
 	background-size: cover;
 }
 
-.img-fluid{
+#imgFluid{
 	width: 100%;
 	height: 100%;
 }
@@ -122,3 +124,4 @@ textarea{
 		height: 180px;
 	}
 }
+

@@ -1,7 +1,7 @@
 import React from "react";
-import './Style_aboutus.css';
+import './Aboutuspage.css';
 
-import Teammember from './Teammember';
+import Teammember from './Team_member';
 
 //i try to put d-flex but it dosn't work 
 
@@ -17,13 +17,13 @@ const About = () => {
                             <h3>
                             " Welcome dear La Belle , We hope to gain your trust Get to know us "
                             </h3>
-                            <div className="img-circle-head" src={require('../Images/Display_dresse.jpg')} alt="" ></div>
+                            <div className="img-circle-head" src={require('../images/Display_dresse.jpg')} alt="" ></div>
 
                                             
                                   <div class="container text-center">
                                             <div class="row">
                                             <div class="col-sm-4">
-                                                                    <div className='img-circle' src={require('../Images/img-history.jpg')} alt ="image"  ></div>
+                                                                    <div className='img-circle' src={require('../images/img-history.jpg')} alt ="image"  ></div>
                                                             
                                                             <h2> history :</h2>
 
@@ -38,7 +38,7 @@ const About = () => {
                                             <div class="row">
                                                 <div class="col-sm">
                                                                              
-                                                    <div className = 'img-circle-our-features' src = {require('../Images/img- Our features.jpg')} alt ="image"  ></div>
+                                                    <div className = 'img-circle-our-features' src = {require('../images/img- Our features.jpg')} alt ="image"  ></div>
                                                     
                                                         <h2>  Our features :</h2>
                        

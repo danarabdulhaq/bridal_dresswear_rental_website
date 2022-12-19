@@ -14,6 +14,7 @@ import About from './components/Pages/Aboutuspage'
 import DisplayDress from './components/DisplayDress';
 import Displayaccessories from './components/Accessoris/Displayaccessories';
 import DisplayFlower from './components/Flower/DisplayFlower'
+import Admin from './components/Pages/AdminLog';
 
 
  function App() {
@@ -43,6 +44,8 @@ import DisplayFlower from './components/Flower/DisplayFlower'
           <Route path="/DisplayDress" element={<DisplayDress/>}/>
           <Route path="/Displayaccessories" element={<Displayaccessories />}/>
           <Route path="/DisplayFlower" element={<DisplayFlower/>}  />
+          <Route path="/Admin" element={<Admin/>}  />
+          
           
       </Routes>
       <Footer/>

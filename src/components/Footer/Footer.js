@@ -1,9 +1,13 @@
-import React from 'react';
+import React,{useEffect} from 'react';
 import logo from '../images/labellelogo .png'
 import {  Link } from "react-router-dom";
-import './Footer.css'
+import './Footer.css';
 
 const Footer = () =>  {
+  useEffect(() => {
+    window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
+  }, []);
+
   return (
     <div id="footer">
     <footer className="text-center text-lg-start bg-light text-muted ">
@@ -44,13 +48,19 @@ const Footer = () =>  {
                 Products
               </h6>
               <p>
-              <Link className="text-reset" to={"/DisplayDress"}>Dress</Link>
+              <Link className="text-reset" to={"/DisplayDress"} onClick={() => {
+          window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
+        }}>Dress</Link>
               </p>
               <p>
-                <Link className="text-reset"to={'/DisplayFlower'}>Roses</Link>
+                <Link className="text-reset"to={'/DisplayFlower'} onClick={() => {
+          window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
+        }}>Roses</Link>
               </p>
               <p>
-                <Link className="text-reset" to={'/Displayaccessories'}>Accessories</Link>
+                <Link className="text-reset" to={'/Displayaccessories'} onClick={() => {
+          window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
+        }}>Accessories</Link>
               </p>
             </div>
             
@@ -62,16 +72,24 @@ const Footer = () =>  {
                 Useful links
               </h6>
               <p>
-                <Link className="text-reset"to={'/'}>Home</Link>
+                <Link className="text-reset"to={'/'} onClick={() => {
+          window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
+        }}>Home</Link>
               </p>
               <p>
-                <Link className="text-reset"to={'/Services'}>Services</Link>
+                <Link className="text-reset"to={'/Services'} onClick={() => {
+          window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
+        }}>Services</Link>
               </p>
               <p>
-                <Link className="text-reset"to={'/AboutUs'}>AboutUs</Link>
+                <Link className="text-reset"to={'/AboutUs'} onClick={() => {
+          window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
+        }}>AboutUs</Link>
               </p>
               <p>
-                <Link className="text-reset"to={'/ContactUs'}>ContactUs</Link>
+                <Link className="text-reset"to={'/ContactUs'} onClick={() => {
+          window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
+        }}>ContactUs</Link>
               </p>
             </div>
             

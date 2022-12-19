@@ -21,7 +21,7 @@ const ItemCard = (props)=> {
               <h1>{props.name}</h1>
               <hr id='item-hr'/>
               <p>{props.details}</p>
-              <p class="item-price"><b>${props.price}</b></p>
+              <p class="item-price"><b>{props.price}</b></p>
 <Btn title="more details" />
             </div></div>
          </div> </div>);

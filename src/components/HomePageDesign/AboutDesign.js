@@ -22,10 +22,7 @@ return(
         <h3>Why la belle</h3>
         <p>We offer you the latest, most beautiful and elegant dresses, accessories and packages to get the most beautiful look on your special day.</p>
         <p>Best is yet to come, cherish each moment along this journey .</p>
-
-        <a href="..." className="btn">Learn more</a>
-
-        <Link to="/AboutUs"className="btn" id="HDStyle">Learn more</Link>
+        <Link to="/AboutUs" className="btn" id="HDStyle">Learn more</Link>
 
     </div>
 

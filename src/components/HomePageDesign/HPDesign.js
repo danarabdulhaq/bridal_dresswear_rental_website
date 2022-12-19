@@ -4,19 +4,20 @@ import './HPDesign.css'
 
 const HPDesign =()=>{
 
-    return(
+ return(
 
-<div className="main-p" >
+ 
+   <div className="container"  >
 
-  <h5 className="design"> <span> Welcome </span> here </h5>
+    <div className="design"> 
+       <h2 id="h2" > la belle Bridals</h2>
+       <h5 id="h5" >  LOVE BROUGHT YOU HERE, US TOO </h5>
+    </div>
 
-</div>
+   </div>
 
-    );
-
-    
+ );
 }
-
 
 
 //export

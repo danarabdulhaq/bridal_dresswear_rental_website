@@ -7,7 +7,7 @@ const Contact = () => {
     return(
 		
 
-	<div className="container-cc"  >
+	<div className="container-cc" id="cc" >
 
 	<div className="container" id="coBox">
 
@@ -15,7 +15,7 @@ const Contact = () => {
 		<div className="left">
 		</div>
 			<div className="right">
-			  <h2>Contact Us</h2>
+			  <h2 id="h--2" >Contact Us</h2>
 			  <input type="text" className="field" placeholder="Your Name"></input>
 			  <input type="text" className="field" placeholder="Your Email"></input>
 			  <input type="text" className="field" placeholder="Your Phone"></input>

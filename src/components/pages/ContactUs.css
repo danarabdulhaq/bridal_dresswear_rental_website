@@ -1,13 +1,8 @@
 
-*{
+#cc{
 	box-sizing: border-box;
 	font-family: 'Times New Roman', Times, serif;
 }
-
-
-
-
-
 
 #coBox{
 
@@ -63,14 +58,14 @@
 }
 
 
-h2{
+#h--2{
 	position: relative;
 	padding: 10px;
 	margin-bottom: 60px;
     color: black;
 }
 
-h2:after{
+#h--2:after{
 	content: '';
     position: absolute;
     left: 50%;

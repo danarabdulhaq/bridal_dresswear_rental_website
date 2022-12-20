@@ -8,7 +8,7 @@ const Displayaccessories= () =>{
                                     <div className="carousel slide" data-bs-ride="carousel">
                                             <div className="carousel-inner">
                                                  <div className="carousel-item active">
-                                                <img src={access} className="d-block w-100 " alt="ddddddd"/>
+                                                <img src={''} className="d-block w-100 " alt="ddddddd"/>
                                                 <h2 className=' header-products w3-animate-left '>Our Products</h2>
                                                 <p className='d-flex introduction-to-our-products '>In order for your look to be more glamorous and radiant, it is necessary to have beautiful accessories. In order for your look to be more glamorous and radiant, there must be beautiful accessories to add beauty to your beauty.
                                                             Here we provide you with the most beautiful accessories in the most
@@ -21,21 +21,7 @@ const Displayaccessories= () =>{
                                             </div>
                                      </div>
         
-                                           <div className='cardsgrid'>
-                                                   { 
-        
-                                                    my_Data.map((item , index )=> {
-        
-                                                        return(
-                                                            
-                                                            <ProductCard key = {index} img = {item.img} name = {item.name} details = {item.details} price = {item.price} />
-                                                    
-                                                        )
-                                                        
-                                                    })
-        
-                                            }
-                                        </div>
+                                                   
         
                </>
             );

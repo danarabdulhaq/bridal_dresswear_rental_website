@@ -11,7 +11,7 @@ import Login from './components/Pages/LoginPage';
 import Register from './components/Pages/RegisterPage';
 import Contact from './components/Pages/ContactUs';
 import About from './components/Pages/Aboutuspage'
-import DisplayDress from './components/DisplayDress';
+import DisplayDresses from './components/PageDresses/DisplayDresses';
 import Displayaccessories from './components/Accessoris/Displayaccessories';
 import DisplayFlower from './components/Flower/DisplayFlower'
 import Admin from './components/Pages/AdminLog';
@@ -41,7 +41,7 @@ import Admin from './components/Pages/AdminLog';
           <Route path="/AboutUs" element={<About />} />
           <Route path="/Login" element={<Login />} />
           <Route path="/Register" element={<Register />} />
-          <Route path="/DisplayDress" element={<DisplayDress/>}/>
+          <Route path="/DisplayDress" element={<DisplayDresses/>}/>
           <Route path="/Displayaccessories" element={<Displayaccessories />}/>
           <Route path="/DisplayFlower" element={<DisplayFlower/>}  />
           <Route path="/Admin" element={<Admin/>}  />

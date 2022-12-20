@@ -1,12 +1,11 @@
 
-import necklec from './necklec.jpg';
+import necklec from './photo/necklec.jpg';
 
-import Ca from './Ca.jpg';
-import Nk from './Nk.jpg';
-import bab from './bab.jpg';
-import Cd from './Cd.jpg';
-
-import Bc from './Bc.jpg';
+import Ca from './photo/Ca.jpg';
+import Nk from './photo/Nk.jpg';
+import bab from './photo/bab.jpg';
+import Cd from './photo/Cd.jpg';
+import Bc from './photo/Bc.jpg';
 
 
 

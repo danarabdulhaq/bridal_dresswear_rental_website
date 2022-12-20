@@ -1,5 +1,5 @@
 import Form from '../Form/Form';
-import '../Textbox/Textbox.css';
+import '../Textbox/Textbox'
 import '../Form/Form'
 const Register = ()=> { 
   

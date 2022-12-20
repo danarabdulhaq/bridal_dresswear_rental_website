@@ -1,6 +1,7 @@
 // import
-import React from "react";
-import './ContactUs.css';
+import React from "react"
+import './ContactUs.css'
+import img3 from './contactUsImg/M3.jpg'
 
 //function
 const Contact = () => {
@@ -28,7 +29,6 @@ const Contact = () => {
 	</div>
     );
  }
- 
  
 
  // export

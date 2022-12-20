@@ -1,0 +1,130 @@
+
+.ourhis{
+
+position: relative;
+padding:70px;
+text-align: center;
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+@media screen and (min-width: 1250px){
+
+.labelle_history{
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:x-large;
+    width: 1000px;
+    text-align: center;
+    position: relative;
+   left: 150px;   
+}
+}
+.labelle_about{
+
+    color: rgb(122, 75, 165);
+}
+
+.display_img_about{
+    position: relative;
+    margin-top: 60px;
+    width: 1400px;
+    right: 5px;
+
+}
+.ourfeat{
+
+padding-top: 100px;   
+ font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+@media screen and (min-width: 1250px){
+
+.labelle-feature{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:x-large;
+    width: 690px;
+    position: relative;
+    padding-top: 30px;
+
+}}
+
+.display_logo{
+
+    display :grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-top: 100px;
+
+}
+@media screen and (min-width: 1250px){
+
+.Conclusion{
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:x-large;
+    position: relative;
+    width: 500px;
+    bottom: -250px;
+    left: 150px;
+
+
+}}
+
+.padd-ourteam{
+
+    padding-top: 150px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+
+  
+.team-card{
+    margin: 20px;
+   background-color: #ffffff;
+    width: 300px;
+    padding: 8px;
+    border-radius: 5px;
+  box-shadow: 0 5px 20px #000000 ;
+  
+  
+  }
+  .team-card:hover{
+  
+    transform: scale(1.1);
+    transition: 0.7s ;
+  
+  }
+  
+  
+  .team-card-img{
+  
+    display: block;
+    height: auto;
+    width: 100%;
+  }
+    
+  
+  .team-card-info{
+  
+    padding: 15px 0 7px;
+    text-align: center;
+  
+  }
+
+  
+  @media screen and (min-width: 1250px){
+  
+    .rowCard{
+    
+      display: flex;
+      margin-left: 10%; 
+    
+    }}
+    
+  
+    .padd-top{
+  
+        padding-top: 70px;
+      }
+  
+      

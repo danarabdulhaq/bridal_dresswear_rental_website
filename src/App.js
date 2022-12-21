@@ -10,7 +10,7 @@ import {  Route, Routes } from 'react-router-dom';
 import Login from './components/Pages/LoginPage';
 import Register from './components/Pages/RegisterPage';
 import Contact from './components/Pages/ContactUs';
-import About from './components/Pages/Aboutuspage'
+import About from './components/Pages/Aboutus'
 import DisplayDresses from './components/PageDresses/DisplayDresses';
 import Displayaccessories from './components/Accessoris/Displayaccessories';
 import DisplayFlower from './components/Flower/DisplayFlower'

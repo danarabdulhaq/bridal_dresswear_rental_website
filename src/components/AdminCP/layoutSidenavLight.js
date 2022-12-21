@@ -88,4 +88,4 @@
 
 
 
-export default layoutSidenav
+export default layoutSidenav;

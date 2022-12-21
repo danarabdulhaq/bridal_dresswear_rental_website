@@ -3,17 +3,25 @@
   
     
     }
-    #type-input {
+
+ #flower-filter , #flower-type-input{
+background-color: #f6e6e0;
+
+ }   
+ 
+   #flower-type-input , #type-input {
       margin-bottom: 1em;
       padding: .25em;
       border: 0;
       border-bottom: 2px solid currentcolor; 
       letter-spacing: .15em;
       border-radius: 0;
-    background-color: #d0b89d;
+  
     }
-      
-    #type-input:focus,  #type-input:active {
+    #type-input{
+      background-color: #d0b89d;
+    } 
+    #flower-type-input:focus, #flower-type-input:active, #type-input:focus,  #type-input:active {
         outline: 0;
         border-bottom-color: rgb(255, 255, 255);
       }
@@ -38,7 +46,7 @@
       display: flex;
       margin: 15px;
     }
-    #type-input {
+    #flower-type-input, #type-input {
       width: 130px;
       margin: 0 10px;
       height: 30px;

@@ -1,0 +1,61 @@
+#filter{
+    background-color: #d0b89d;/*#bda779*/
+  
+    
+    }
+
+ #flower-filter , #flower-type-input{
+background-color: #f6e6e0;
+
+ }   
+ 
+   #flower-type-input , #type-input {
+      margin-bottom: 1em;
+      padding: .25em;
+      border: 0;
+      border-bottom: 2px solid currentcolor; 
+      letter-spacing: .15em;
+      border-radius: 0;
+  
+    }
+    #type-input{
+      background-color: #d0b89d;
+    } 
+    #flower-type-input:focus, #flower-type-input:active, #type-input:focus,  #type-input:active {
+        outline: 0;
+        border-bottom-color: rgb(255, 255, 255);
+      }
+      #selection-option {
+        background-color: rgb(255, 255, 255);
+      }
+    
+    #color-options {
+      display: flex;
+      gap: 10px;
+      margin: 10px;
+    }
+    
+    .filter-option,
+    .active-option {
+      padding: 10px 20px;
+      min-width: 50px;
+      border-radius: 2rem;
+      
+    }
+    .type-filter {
+      display: flex;
+      margin: 15px;
+    }
+    #flower-type-input, #type-input {
+      width: 130px;
+      margin: 0 10px;
+      height: 30px;
+    }
+    .filter-option:hover,
+    .active-option {
+      color: white;
+      cursor: pointer;
+      transition: all 0.1s;
+      
+    }
+

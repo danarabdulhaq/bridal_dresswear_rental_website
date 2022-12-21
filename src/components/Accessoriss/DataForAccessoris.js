@@ -14,14 +14,14 @@ import Bc from './photo/Bc.jpg';
 const DataForAccessoris =
 
 
-                [{ color : 'silver',url :  necklec ,  name : "necklec" , details : " size : s  " ,  price : "70" },
+                [{ color : 'silver',url :  necklec ,  name : "Luxury diamonds necklace with earings" , details : " size : s  " ,  price : "70" },
                 
-                { color :'golden',url :  Ca ,  name : "Crown" , details : " size : M    " ,  price : "200" },
-                {color : 'silver',url :  Nk ,  name : "necklec" , details : " size : L  " ,  price : "70" },
-                {color :'golden',url :  bab ,  name : "Bracelet" , details : " size : s    " ,  price : "60" },
-                { color :'golden',url :  Cd ,  name : "Crwon" , details : " size : L   " ,  price : "350" },
+                { color :'golden rose',url :  Ca ,  name : "Golden rose bridal crown" , details : " size : M    " ,  price : "200" },
+                {color : 'silver',url :  Nk ,  name : "Silver necklace with earings" , details : " size : L  " ,  price : "70" },
+                {color :'golden rose',url :  bab ,  name : "Golden rose star and moon bracelet" , details : " size : s    " ,  price : "60" },
+                { color :'gold',url :  Cd ,  name : "Gold diamonds bridal crown" , details : " size : L   " ,  price : "350" },
                 
-                {color:'silver',url :  Bc ,  name : "bracelet" , details : " size : s    " ,  price : "40" },
+                {color:'silver',url :  Bc ,  name : "Simple silver bracelet" , details : " size : s    " ,  price : "40" },
                 
 
 

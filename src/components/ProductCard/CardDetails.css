@@ -1,0 +1,95 @@
+.closeBtn{
+	font-weight: bold; 
+	font-size: 1.4rem;
+	position: fixed;
+	top:8px;
+	right: 8px;
+}
+@media screen and (max-width: 800px){
+
+	.modalContaniner{
+		flex-direction: column;
+		top:0;
+		left: 0;
+	    transform: none;
+		width: 100%;
+		height: 500%;
+	}
+	img {
+		width: 100%;
+	}
+
+
+}
+
+.overlay{
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	
+}
+.modalContaniner{
+	box-shadow: 0 20px 20px rgba(184, 148, 217, 0.914);
+    height: 600px;
+	max-width: 900px;
+	width: 100%;
+	position: fixed;
+	top:50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	display: flex;
+	background-color: #fff;
+	
+}
+img {
+	width: 443px;
+	object-fit: cover;
+}
+
+
+.card-title{
+	position: fixed;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2rem;
+	position: relative;
+	top: 0.8cm;
+	left: 5cm;
+	color: #000000;
+}
+
+.description{
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	position: relative;
+	padding: 10px;
+	margin-bottom: 100px;
+	left: 1cm;
+    color: #000000;
+	top: 1cm;
+}
+
+.size{
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	position: relative;
+	left: 1.5cm;
+	top: -1.1cm;
+}
+
+.sizeNum p{
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	position:  relative ;
+	right:-5cm;
+	top: -2.8cm;
+
+}
+
+.sizesNum p{
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	position:  relative ;
+	left: 8.5cm;
+	top: -4.4cm;
+}
+
+
+
+
+

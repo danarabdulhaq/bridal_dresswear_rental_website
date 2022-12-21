@@ -1,6 +1,7 @@
 
 // import
 import React from "react"
+import Cal from "../Calendar/Calendar";
 import './CardDetails.css'
 
 //function
@@ -37,6 +38,7 @@ const CardDetails = (props) => {
 				     <p className="card-text">{props.color}</p>
 					 </div>
 					 <a href="..." className="btn-rent">Rent Now</a>
+					 <Cal/>
 		    </div>
 		</div>
 	</div>  

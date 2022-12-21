@@ -12,17 +12,17 @@ import fk from './photo/fk.jpg';
 import fo from './photo/fo.jpg';
 
 const DataForFlowers =
-    [           { color :"Pink & White  ",url :  fa ,  name : "Pink & White Bouquet" , details : " size : s   " ,  price : "70" },
-                { color :"Pink ",url :  fc ,  name : "Pink  Bouquet " , details : " size : s   " ,  price : "100" },
-                {color :"Pink & Green  ",url :  fd ,  name : "Pink & Green Bouquet" , details : " size : s   " ,  price : "350" },
-                {color :" Blue & White",url :  fe ,  name : "Blue & White Bouquet" , details : " size : s   " ,  price : "80" },
-                {color :"Pink & White ",url :  ff ,  name : "Pink & White Bouquet" , details : " size : s  " ,  price : "40" },
-                {color :"Green & White  ",url :  fg ,  name : "Green & White Bouquet" , details : " size : s    " ,  price : "100" },
-                {color :"White ",url :  fh ,  name : " White Bouquet" , details : " size : s    " ,  price : "100" },
-                {color :"Pink  Green& White ",url :  fi ,  name : "Pink  Green& White Bouquet" , details : " size : s   " ,  price : "60" },
-                {color :" Blue & BabyGreen",url :  fj,  name : "Blue & BabyGreen Bouquet" , details : " size : s    " ,  price : "100" },
-                {color :"Red ",url :  fk ,  name : "Red Bouquet" , details : " size : s    " ,  price : "150" },
-                {color :"White ",url :  fo ,  name : " White Bouquet" , details : " size : s    " ,  price : "140" },];
+    [           { color :"white",url :  fa ,  name : "White and pink Bouquet" , details : " size : s   " ,  price : "70" },
+                { color :"pink",url :  fc ,  name : "Pink and white Bouquet " , details : " size : s   " ,  price : "100" },
+                {color :"white",url :  fd ,  name : "White and pink Bouquet" , details : " size : s   " ,  price : "350" },
+                {color :"white",url :  fe ,  name : "White and blue Bouquet" , details : " size : s   " ,  price : "80" },
+                {color :"white",url :  ff ,  name : "White and pink Bouquet" , details : " size : s  " ,  price : "40" },
+                {color :"white",url :  fg ,  name : "White and green Bouquet" , details : " size : s    " ,  price : "100" },
+                {color :"white",url :  fh ,  name : " Full white Bouquet" , details : " size : s    " ,  price : "100" },
+                {color :"white",url :  fi ,  name : "Whit and pink Bouquet" , details : " size : s   " ,  price : "60" },
+                {color :"green",url :  fj,  name : "Special green with blue Bouquet" , details : " size : s    " ,  price : "100" },
+                {color :"red",url :  fk ,  name : "Red with white Bouquet" , details : " size : s    " ,  price : "150" },
+                {color :"white",url :  fo ,  name : "Simple white Bouquet" , details : " size : s    " ,  price : "140" },];
 
                 export default DataForFlowers;
 

@@ -1,5 +1,6 @@
 import ProductCard from '../ProductCard/ProductCard';
-import './DisplayDresses.css'
+import './DisplayDresses.css';
+import '../Filter/Filter.css';
 import my_Data from '../Data/DataForDresses.js';
 import displayheaderforDresses from './headerDressesPage.jpg'
 import { useEffect, useState } from "react";
@@ -101,10 +102,10 @@ const DisplayDresses= () =>{
                 value={selectedType}
                 onChange={handleTypeChange}
               >
-                <option value="">All</option>
-                <option value="chiffon">chiffon</option>
-                <option value="satin">Satin</option>
-                <option value="lace">Lace</option>
+                <option value="" id='selection-option'>All</option>
+                <option value="chiffon" id='selection-option'>chiffon</option>
+                <option value="satin" id='selection-option'>Satin</option>
+                <option value="lace" id='selection-option'>Lace</option>
               </select>
             </div>
           </div>
@@ -116,12 +117,12 @@ const DisplayDresses= () =>{
                 value={selectedSize}
                 onChange={handleSizeChange}
               >
-                <option value="">All</option>
-                <option value="XS">XS</option>
-                <option value="S">S</option>
-                <option value="M">M</option>
-                <option value="L">L</option>
-                <option value="XL">XL</option>
+                <option value="" id='selection-option'>All</option>
+                <option value="XS" id='selection-option'>XS</option>
+                <option value="S" id='selection-option'>S</option>
+                <option value="M" id='selection-option'>M</option>
+                <option value="L" id='selection-option'>L</option>
+                <option value="XL" id='selection-option'>XL</option>
               </select>
             </div>
           </div>

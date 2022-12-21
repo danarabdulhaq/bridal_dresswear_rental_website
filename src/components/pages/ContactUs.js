@@ -10,8 +10,6 @@ const Contact = () => {
 
 	<div className="container-cc" id="cc" >
 
-	<div className="container" id="coBox">
-
 		<div className="contact-box">
 		<div className="left">
 		</div>
@@ -26,7 +24,7 @@ const Contact = () => {
 		    </div>
 	    </div>
 	</div>
-	</div>
+	
     );
  }
  

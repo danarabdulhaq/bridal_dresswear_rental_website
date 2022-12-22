@@ -1,3 +1,4 @@
+
 #ServiceHeader
 {
   background-color: #9174a3;
@@ -23,10 +24,17 @@
 {
   padding: 50px;
 }
+
 #infoCardSide{
-  padding-left: 100px;
-  padding-right: 300px;
-  width: 70%;
-  max-width: 10000px;
-  min-width: 600px;
-}
+  position: relative;
+    right: -100px;
+    padding-left: 150px;
+    padding-right: 200px;
+    width: 60%;
+    max-width: 10000px;
+    min-width: 600px;}
+
+   
+
+    
+  

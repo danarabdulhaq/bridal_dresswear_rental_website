@@ -10,49 +10,52 @@ import {  Route, Routes } from 'react-router-dom';
 import Login from './components/Pages/LoginPage';
 import Register from './components/Pages/RegisterPage';
 import Contact from './components/Pages/ContactUs';
-import About from './components/Pages/Aboutus'
+// import About from './components/Pages/Aboutus'
 import DisplayDresses from './components/PageDresses/DisplayDresses';
 import Displayaccessories from './components/Accessoris/Displayaccessories';
 import DisplayFlower from './components/Flower/DisplayFlower'
 import Admin from './components/Pages/AdminLog';
+import table from './components/TableAdmin/table';
 
 
  function App() {
-  const [loading, setLoading] = useState(false);
-  useEffect(() => {
-    setLoading(true);
-    setTimeout(() => {
-      setLoading(false);
-    }, 5300);
-  }, []);
-  return (
+  <Services/>
+   const [loading, setLoading] = useState(false);
+   useEffect(() => {
+     setLoading(true);
+     setTimeout(() => {
+       setLoading(false);
+     }, 5300);
+   }, []);
+   return (
     <div className='App'>
       {loading ? (
-<div className="loader-container">
-<Preloader />
-</div>
-) : (
-  <div className="main-content">
+ <div className="loader-container">
+ <Preloader />
+ </div>
+ ) : (
+   <div className="main-content">
      <Navbar/>
-      <Routes>
-        <Route path="/" element={<Home />}/>
-          <Route path="/ContactUs" element={<Contact />} />
-          <Route path="/Services" element={<Services />} />
-          <Route path="/AboutUs" element={<About />} />
+       <Routes>
+         <Route path="/" element={<Home />}/>
+           <Route path="/ContactUs" element={<Contact />} />
+           <Route path="/Services" element={<Services />} />
+           {/* <Route path="/AboutUs" element={<About  />} /> */}
           <Route path="/Login" element={<Login />} />
-          <Route path="/Register" element={<Register />} />
-          <Route path="/DisplayDress" element={<DisplayDresses/>}/>
-          <Route path="/Displayaccessories" element={<Displayaccessories />}/>
-          <Route path="/DisplayFlower" element={<DisplayFlower/>}  />
+           <Route path="/Register" element={<Register />} />
+           <Route path="/DisplayDress" element={<DisplayDresses/>}/>
+           <Route path="/Displayaccessories" element={<Displayaccessories />}/>
+           <Route path="/DisplayFlower" element={<DisplayFlower/>}  />
           <Route path="/Admin" element={<Admin/>}  />
+          <Route path="/table" element={<table/>}  />
           
           
-      </Routes>
-      <Footer/>
+       </Routes>
+     <Footer/>
 
 
-</div>)}
-</div>
-  );
+ </div>)}
+ </div>
+ );
 }
 export default App;

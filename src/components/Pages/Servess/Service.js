@@ -3,14 +3,16 @@
 import '../../BTN/Button.css';
 import dresss from './dressss.jpg';
 import delivery from './delivery.jpg';
-import flowers from './flowerS.jpg';
+import f from './f.jpg';
 import accessoriss from './accessoriss.jpg';
 import { Link } from 'react-router-dom';
 
 
-const Service =()=>{
+ const Service =()=>{
       return(
             <>
+            
+            
                   <div  id='ServiceHeader'>
                         <h2 id='headOfService'>Our Service</h2>
                         <h5 id='midOfService'>  Our beautiful la belle, we offer you our services to be the queen of your beautiful night </h5>
@@ -27,7 +29,7 @@ const Service =()=>{
                                     </div>
                                     <div className="col-8">
                                           <div className="card-body">
-                                          <h5 className="card-title">Card title</h5>
+                                          <h5 className="card-title">Dress</h5>
                                           <p className="card-text">We offer you a wide selection of the latest wedding dress trends</p>
                                           </div>
                                           
@@ -35,22 +37,24 @@ const Service =()=>{
                                     </div>
                                     </div>
                                     </div>
+                               
                         <div className="col " id='infoCardSide'>
                         <div className="card mb-3 "  >
                               <div className="row g-0">
                               
                               <div className="col-8">
                                     <div className="card-body">
-                                    <h5 className="card-title">Card title</h5>
-                                    <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                    <h5 className="card-titles">Bouquets of Roses</h5>
+                                    <p className="card-text">We provide you with beautiful flower bouquets with a variety of distinctive designs.</p>
                                     </div>
                                     </div>
                                     <div className="col-md-4">
-                                    <img src={flowers} className="img-fluid rounded-start" alt="..."/>
+                                    <img src={f} className="img-fluid rounded-start" alt="..."/>
                               </div>
                               </div>
                               </div>
                               </div>
+                   
                         <div className="col "id='infoCardSide'>
                         <div className="card mb-3 "  >
                               <div className="row g-0">
@@ -59,8 +63,8 @@ const Service =()=>{
                               </div>
                               <div className="col-8">
                                     <div className="card-body">
-                                    <h5 className="card-title">Card title</h5>
-                                    <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                    <h5 className="card-title">Accessories</h5>
+                                    <p className="card-text">We also offer you glamorous accessories with attractive designs that will complete your beautiful look.</p>
                                     </div>
                               </div>
                               </div>
@@ -115,8 +119,9 @@ const Service =()=>{
                               </div>
                   </div>
             </>
+            
       );
-}
+  }
 
 
  export default Service;                              

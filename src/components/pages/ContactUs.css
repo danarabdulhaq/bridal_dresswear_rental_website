@@ -1,39 +1,34 @@
-
-#cc{
+*{
 	box-sizing: border-box;
 	font-family: 'Times New Roman', Times, serif;
 }
 
+body{
+	height: 100px;
+	width: 100%;
+}
 
-#coBox{
-
+.container{
 	position: relative;
 	width: 100%;
 	height: 100%;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	padding: 50px 100px;
-
+	padding: 20px 100px;
 }
 
-
-
-#coBox:after{
-
+.container:after{
 	content: '';
 	position: absolute;
 	width: 100%;
 	height: 100%;
-    background: url("../Pages/contactUsImg/M3.jpg") no-repeat center;
 	background-size: cover;
 	filter: blur(50px);
 	z-index: -1;
 }
-
 .contact-box{
 	max-width: 1050px;
-	height: 20cm;
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
 	justify-content: center;
@@ -45,11 +40,9 @@
 
 .left{
 	height: 100%;
-	background: url("../Pages/contactUsImg/M3.jpg") no-repeat center;
-	background-size: cover;
 }
 
-#imgFluid{
+.imageThree{
 	width: 100%;
 	height: 100%;
 }
@@ -59,14 +52,14 @@
 }
 
 
-#h--2{
+h2{
 	position: relative;
 	padding: 10px;
 	margin-bottom: 60px;
-    color: black;
+color: black;
 }
 
-#h--2:after{
+h2:after{
 	content: '';
     position: absolute;
     left: 50%;
@@ -100,8 +93,8 @@ textarea{
 .btn{
 	width: 30%;
 	padding: 0.5rem 1rem;
-	background-color: #b876de91;
-	color: rgba(0, 0, 0, 0.711);
+	background-color: #7f589491;
+	color: #fff;
 	font-size: 1.1rem;
 	border: none;
 	outline: none;
@@ -110,17 +103,5 @@ textarea{
 }
 
 .btn:hover{
-    background-color:#cf7ddbcc;
+    background-color:#b052e2;
 }
-
-
-@media screen and (max-width: 880px){
-	
-	.contact-box{
-		grid-template-columns: 1fr;
-	}
-	.left{
-		height: 180px;
-	}
-}
-

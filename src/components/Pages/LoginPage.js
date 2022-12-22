@@ -13,13 +13,13 @@ const Login = ()=> {
   const [email,setEmail]=useState('')
   const [password,setPassword]=useState('')
 
-  const data= useState(LoginData);
-  data.map((info)=>{
+  const [data,setData]= useState(LoginData);
+  data.map((info,index)=>{
     if (info.Email===email&& info.Password===password) {
       info.state=true;
-    }
+    }else info.state=false;
   })
-
+    
 return (
   <>
 

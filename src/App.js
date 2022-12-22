@@ -20,11 +20,14 @@ import LoginData from './components/Data/LoginData';
 
 
 function App() {
-const data=useState(LoginData)
+
+
 const [login,setLogin]=useState(false);
+
+const[ data,setData]=useState(LoginData)
 data.map((info)=>{
-  if (info.s) {
-  }
+    if(info.state===true&&info.access==='admin')
+{setLogin(true)}
 })
   
   return (

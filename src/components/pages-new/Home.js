@@ -15,7 +15,7 @@ return(
     <HPDesign/>
     <div className="mx-5">
         <CardMain/></div>
-            <div className="my-5" id="vid">
+            <div className="my-5 mx-3" id="vid">
                 <HomeDesign/>
             </div>
                     <FeedBack/>

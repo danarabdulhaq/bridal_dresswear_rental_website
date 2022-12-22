@@ -1,5 +1,5 @@
 import './ProductCard.css';
-import Btn from '../Register-btn/Register-btn';
+import Btn from '../Register-btn/Register-btn.css';
 const ItemCard = (props)=> {
 
     const flip = () => {

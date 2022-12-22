@@ -6,7 +6,6 @@ import FeedBack from '../FeedBack/FeedBack'
 import HPDesign from '../HomePageDesign/HPDesign'
 
 
-
 const Home=()=>
 {
 return(
@@ -19,7 +18,6 @@ return(
                 <HomeDesign/>
             </div>
                     <FeedBack/>
-
 </>
 )}
 export default Home;

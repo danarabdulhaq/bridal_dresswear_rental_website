@@ -6,7 +6,7 @@ import Navbar from './components/Navbar/Navbar';
 import Home from './components/Pages/Home';
 import Services from './components/Pages/Servess/Service';
 import {  Route, Routes } from 'react-router-dom';
-import Login,{loginData} from './components/Pages/LoginPage';
+import Login from './components/Pages/LoginPage';
 import Register from './components/Pages/RegisterPage';
 import Contact from './components/Pages/ContactUs';
 import About from './components/Pages/Aboutus'
@@ -14,18 +14,18 @@ import DisplayDresses from './components/PageDresses/DisplayDresses';
 import Admin from './components/Pages/AdminLog';
 import DisplayFlowerss from './components/FlowersForBridel/DisplayFlowerss';
 import DisplayCode from './components/Accessoriss/DisplayCode';
+import LoginData from './components/Data/LoginData';
 
 
 
 
 function App() {
-
+const data=useState(LoginData)
 const [login,setLogin]=useState(false);
-if(document.getElementById('loginEmail')==="abc@gmail.com"&& document.getElementById('loginPassword')==="12345")
-{
-setLogin(true)
-}
-
+data.map((info)=>{
+  if (info.s) {
+  }
+})
   
   return (
     <div className='App'>

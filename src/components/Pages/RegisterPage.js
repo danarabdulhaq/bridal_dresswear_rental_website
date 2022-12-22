@@ -1,5 +1,5 @@
 import Form from '../Form/Form';
-import '../Textbox/Textbox'
+import '../Textbox/Textbox.css'
 import '../Form/Form'
 import '../Register-btn/Register-btn.css';
 import { Link } from 'react-router-dom';

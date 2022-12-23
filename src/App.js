@@ -9,12 +9,11 @@ import {  Route, Routes } from 'react-router-dom';
 import Login,{loginData} from './components/Pages/LoginPage';
 import Register from './components/Pages/RegisterPage';
 import Contact from './components/Pages/ContactUs';
-//import About from './components/Pages/Aboutus'
+import About from './components/Pages/Aboutus'
 import DisplayDresses from './components/PageDresses/DisplayDresses';
 import Admin from './components/Pages/AdminLog';
 import DisplayFlowerss from './components/FlowersForBridel/DisplayFlowerss';
 import DisplayCode from './components/Accessoriss/DisplayCode';
-
 
 
 
@@ -42,6 +41,7 @@ setLogin(true)
         <Route path="/" element={<Home />}/>
           <Route path="/ContactUs" element={<Contact />} />
           <Route path="/Services" element={<Services />} />
+          <Route path="/AboutUs" element={<About />} />
           <Route path="/Login" element={<Login />} />
           <Route path="/Register" element={<Register />} />
           <Route path="/DisplayDress" element={<DisplayDresses/>}/>

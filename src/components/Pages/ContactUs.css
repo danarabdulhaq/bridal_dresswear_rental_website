@@ -17,6 +17,7 @@
     background: url("images/M3.jpg") no-repeat center;
 	background-size: cover;
 	filter: blur(50px);
+	
 	z-index: -1;
 	
 }

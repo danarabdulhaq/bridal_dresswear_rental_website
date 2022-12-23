@@ -2,7 +2,6 @@
  import React from "react";
 import '../../BTN/Button.css';
 import dresss from './dressss.jpg';
-import delivery from './delivery.jpg';
 import flowers from './flowerS.jpg';
 import accessoriss from './accessoriss.jpg';
 import { Link } from 'react-router-dom';
@@ -11,6 +10,7 @@ import { Link } from 'react-router-dom';
 const Service =()=>{
       return(
             <>
+
                   <div  id='ServiceHeader'>
                         <h2 id='headOfService'>Our Service</h2>
                         <h5 id='midOfService'>  Our beautiful la belle, we offer you our services to be the queen of your beautiful night </h5>

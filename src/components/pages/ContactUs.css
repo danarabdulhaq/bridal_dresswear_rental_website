@@ -17,9 +17,7 @@
     background: url("../Pages/contactUsImg/M3.jpg") no-repeat center;
 	background-size: cover;
 	filter: blur(50px);
-	
 	z-index: -1;
-	
 }
 .contact-box{
 	max-width: 1050px;

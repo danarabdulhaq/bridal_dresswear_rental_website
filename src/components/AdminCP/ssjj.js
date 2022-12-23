@@ -1,6 +1,6 @@
-
-
-window.addEventListener('DOMContentLoaded', event => {
+const R= ()=>{
+    
+   window.addEventListener('DOMContentLoaded', event => {
 
  
     const sidebarToggle = document.body.querySelector('#sidebarToggle');
@@ -13,6 +13,8 @@ window.addEventListener('DOMContentLoaded', event => {
         });
     }
 
-});
+})
+    
+}
 
-
+export default R

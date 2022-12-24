@@ -85,7 +85,7 @@ img {
 
 
 
-  @media screen and (max-width: 900px){
+  @media screen and (max-width: 901px){
 
 	.modalContaniner{
 		flex-direction:column;

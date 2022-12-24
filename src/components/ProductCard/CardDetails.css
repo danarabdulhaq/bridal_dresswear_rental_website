@@ -1,36 +1,13 @@
-.closeBtn{
-	font-weight: bold; 
-	font-size: 1.4rem;
-	position: fixed;
-	top:8px;
-	right: 8px;
-}
-@media screen and (max-width: 800px){
-
-	.modalContaniner{
-		flex-direction: column;
-		top:0;
-		left: 0;
-	    transform: none;
-		width: 100%;
-		height: 500%;
-	}
-	img {
-		width: 100%;
-	}
-
-
-}
 
 .overlay{
+	background-color:#050404;
 	position: fixed;
 	width: 100%;
 	height: 100%;
+	color: black;
 	
 }
 .modalContaniner{
-	box-shadow: 0 20px 20px rgba(184, 148, 217, 0.914);
-    height: 600px;
 	max-width: 900px;
 	width: 100%;
 	position: fixed;
@@ -39,21 +16,38 @@
 	transform: translate(-50%,-50%);
 	display: flex;
 	background-color: #fff;
-	
+	box-shadow: 0 20px 20px rgba(184, 148, 217, 0.914);
+
 }
 img {
 	width: 443px;
 	object-fit: cover;
 }
-
-
+.modalContaniner{
+	width: 100%;
+}
+.closeBtn{
+	font-weight: bold; 
+	font-size: 1.4rem;
+	position: fixed;
+	top:8px;
+	right: 8px;
+}
+.content{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	margin-top: 3rem;
+	padding: 1rem 2rem;
+}
 .card-title{
 	position: fixed;
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 2rem;
 	position: relative;
-	top: 0.8cm;
-	left: 5cm;
+	top:-2cm;
+	left: 4cm;
 	color: #000000;
 }
 
@@ -64,32 +58,76 @@ img {
 	margin-bottom: 100px;
 	left: 1cm;
     color: #000000;
-	top: 1cm;
+	top: -1cm;
 }
 
 .size{
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 	position: relative;
-	left: 1.5cm;
-	top: -1.1cm;
+	left: 1.cm;
+	top: -2.7cm;
 }
 
 .sizeNum p{
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 	position:  relative ;
-	right:-5cm;
-	top: -2.8cm;
+	right:-3.6cm;
+	top: -4.4cm;
 
 }
 
 .sizesNum p{
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 	position:  relative ;
-	left: 8.5cm;
-	top: -4.4cm;
+	left: 7.6cm;
+	top: -6.1cm;
 }
 
 
 
+  @media screen and (max-width: 900px){
 
+	.modalContaniner{
+		flex-direction:column;
+		top: 0.50em;
+		left:7em;
+	    transform: none;
+		width: 70%;
+		height: 100vh;
+	}
+	img{
+		width: 30%;
 
+	}
+
+	.size {
+		flex-direction:column;
+		left: 0cm;
+		top: -4.2cm;
+
+	}
+	.sizesNum p{
+		top: -7.6cm;
+		left: 2.5cm;
+
+	}
+	.sizeNum p{
+		top: -5.9cm;
+		right: 3cm;
+	}
+	.card-title{
+    top: -5cm;
+	left: 2cm;
+	font-size: 1.3rem;
+
+	}
+	.description{
+		top:-5.2cm;
+		left: 0cm;
+	}
+	.closeBtn{
+		right: 1cm;
+	}
+	
+
+}

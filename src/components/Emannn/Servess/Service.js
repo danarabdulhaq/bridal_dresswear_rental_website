@@ -2,8 +2,8 @@
  import React from "react";
 import '../../BTN/Button.css';
 import dresss from './dressss.jpg';
-import delivery from './delivery.jpg';
-import f from './f.jpg';
+
+import flower from './flower.jpg';
 import accessoriss from './accessoriss.jpg';
 import { Link } from 'react-router-dom';
 
@@ -49,7 +49,7 @@ import { Link } from 'react-router-dom';
                                     </div>
                                     </div>
                                     <div className="col-md-4">
-                                    <img src={f} className="img-fluid rounded-start" alt="..."/>
+                                    <img src={flower} className="img-fluid rounded-start" alt="..."/>
                               </div>
                               </div>
                               </div>
@@ -59,6 +59,8 @@ import { Link } from 'react-router-dom';
                         <div className="card mb-3 "  >
                               <div className="row g-0">
                               <div className="col-md-4">
+
+
                                     <img src={accessoriss} className="img-fluid rounded-start" alt="..."/>
                               </div>
                               <div className="col-8">

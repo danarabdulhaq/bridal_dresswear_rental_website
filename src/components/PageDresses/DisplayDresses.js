@@ -160,9 +160,7 @@ filteredList.map((item , index )=> {
                                                 return(
                                                     
                                                     <ProductCard key = {index} img = {item.url} name = {item.name} details = {item.details} price = {item.price} />
-                                            
                                                 )
-                                                
                                             })
 
                                     }

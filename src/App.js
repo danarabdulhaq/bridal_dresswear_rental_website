@@ -17,7 +17,7 @@ import DisplayCode from './components/Accessoriss/DisplayCode';
 import LoginData from './components/Data/LoginData';
 import Fback from './components/Pages/FeedbackPage/Fback';
 import Preloader from './components/Preloader/Preloader'
-
+import Dress from './components/AdminCP/Dress'
 
 
 
@@ -50,10 +50,9 @@ useEffect(()=> {data.map((info)=>{
 <Preloader />
 </div>
 ): (  login ? (
-
+<div>
 <Admin/>
-
-
+</div>
 
 ):(
   <div className="main-content">

@@ -37,8 +37,6 @@ function Navbar() {
                   <ul className="dropdown-menu">
                   <Link className="dropdown-item" to="/Login">Login</Link>
                   <Link className="dropdown-item"to="/Register">Register</Link>
-                  <Link className="dropdown-item"to="/Admin">Admin</Link>
-
           </ul>
           </li>
           </ul>

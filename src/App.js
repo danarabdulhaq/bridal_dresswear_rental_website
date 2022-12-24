@@ -6,25 +6,29 @@ import Navbar from './components/Navbar/Navbar';
 import Home from './components/Pages/Home';
 import Services from './components/Pages/Servess/Service';
 import {  Route, Routes } from 'react-router-dom';
-import Login,{loginData} from './components/Pages/LoginPage';
+import Login from './components/Pages/LoginPage';
 import Register from './components/Pages/RegisterPage';
 import Contact from './components/Pages/ContactUs';
-import About from './components/Pages/Aboutus'
+import Aboutus from './components/Pages/AboutUs'
 import DisplayDresses from './components/PageDresses/DisplayDresses';
 import Admin from './components/Pages/AdminLog';
 import DisplayFlowerss from './components/FlowersForBridel/DisplayFlowerss';
 import DisplayCode from './components/Accessoriss/DisplayCode';
+import LoginData from './components/Data/LoginData';
+import Fback from './components/Pages/FeedbackPage/Fback';
 
 
 
 function App() {
 
-const [login,setLogin]=useState(false);
-if(document.getElementById('loginEmail')==="abc@gmail.com"&& document.getElementById('loginPassword')==="12345")
-{
-setLogin(true)
-}
 
+const [login,setLogin]=useState(false);
+
+const[ data,setData]=useState(LoginData)
+data.map((info)=>{
+    if(info.state===true&&info.access==='admin')
+{setLogin(true)}
+})
   
   return (
     <div className='App'>
@@ -41,13 +45,13 @@ setLogin(true)
         <Route path="/" element={<Home />}/>
           <Route path="/ContactUs" element={<Contact />} />
           <Route path="/Services" element={<Services />} />
-          <Route path="/AboutUs" element={<About />} />
+          <Route path="/AboutUs" element={<Aboutus />} />
           <Route path="/Login" element={<Login />} />
           <Route path="/Register" element={<Register />} />
           <Route path="/DisplayDress" element={<DisplayDresses/>}/>
           <Route path="/Displayaccessories" element={<DisplayCode />}/>
           <Route path="/DisplayFlower" element={<DisplayFlowerss/>}  />
-          <Route path="/Admin" element={<Admin/>}  />
+          <Route path="/Fback" element={<Fback/>}  />
       </Routes>
       <Footer/>
 </div>)}

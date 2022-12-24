@@ -4,20 +4,22 @@ import '../Textbox/Textbox.css';
 import { Link } from 'react-router-dom';
 import  '../Register-btn/Register-btn.css';
 import { useState } from 'react';
+import LoginData from '../Data/LoginData'
 
 
-const loginData=[
-  
-  {Email:'abc@gmail.com',Password:"12345",state:false}
-]
 
 const Login = ()=> { 
   
   const [email,setEmail]=useState('')
   const [password,setPassword]=useState('')
 
-
-
+  const [data,setData]= useState(LoginData);
+  data.map((info,index)=>{
+    if (info.Email===email&& info.Password===password) {
+      info.state=true;
+    }else info.state=false;
+  })
+    
 return (
   <>
 
@@ -41,11 +43,5 @@ return (
     </div> </>
 
 );
-
-
-
-
 }
-
-
 export default Login;

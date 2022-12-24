@@ -1,5 +1,5 @@
 import React from "react";
-import LayoutSidenav from '../AdminCP/layoutSidenavLight'
+import LayoutSidenav from '../AdminCP/S'
 const Admin=()=>{
 return(
 

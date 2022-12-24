@@ -5,12 +5,10 @@ import '../Register-btn/Register-btn.css'
 import './CardDetails.css';
  
 const ItemCard = (props)=> {
-  // The function is opens and closes the model (Written by Shaimaa Saleem)
   const [Modal,setModal]=useState(false);
   const toggleModal =()=>{
     setModal(!Modal) 
   }
-  //The function display product card(Written by Marah Ntsheh)
     const flip = () => {
         var cards = document.querySelectorAll('.item-card');
         [...cards].forEach((card) => {
@@ -39,7 +37,6 @@ const ItemCard = (props)=> {
      </div>
 
 {Modal && (	
- //The function display more viwe (Written by Shaimaa saleem)
 <div className="card mb-3" id="overlay" >
 		<div className="modalContaniner">
 		     <div className="modalRight">

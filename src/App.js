@@ -1,5 +1,5 @@
 
-import React, { useState} from 'react';
+import React, { useState,useEffect} from 'react';
 import './App.css';
 import Footer from './components/Footer/Footer';
 import Navbar from './components/Navbar/Navbar';
@@ -16,28 +16,46 @@ import DisplayFlowerss from './components/FlowersForBridel/DisplayFlowerss';
 import DisplayCode from './components/Accessoriss/DisplayCode';
 import LoginData from './components/Data/LoginData';
 import Fback from './components/Pages/FeedbackPage/Fback';
+import Preloader from './components/Preloader/Preloader'
+
+
 
 
 
 function App() {
 
 
+  const [loading, setLoading] = useState(false);
+  useEffect(() => {
+    setLoading(true);
+    setTimeout(() => {
+      setLoading(false);
+    }, 5300);
+  }, []);
+
 const [login,setLogin]=useState(false);
 
 const[ data,setData]=useState(LoginData)
-data.map((info)=>{
+useEffect(()=> {data.map((info)=>{
     if(info.state===true&&info.access==='admin')
 {setLogin(true)}
-})
-  
+})}
+  )
   return (
+    
     <div className='App'>
       
-      {login ? (
+  {loading ? (
 <div className="loader-container">
-<Admin/>
+<Preloader />
 </div>
-) : (
+): (  login ? (
+
+<Admin/>
+
+
+
+):(
   <div className="main-content">
      
      <Navbar/>
@@ -54,7 +72,7 @@ data.map((info)=>{
           <Route path="/Fback" element={<Fback/>}  />
       </Routes>
       <Footer/>
-</div>)}
+</div>))}
 </div>
   );
 }

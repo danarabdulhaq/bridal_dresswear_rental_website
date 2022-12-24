@@ -4,7 +4,7 @@ import './css/styles.css'
 import R from './ssjj'
 import {  Link } from "react-router-dom";   
 
-const Accessoriess=()=>{
+const ACPRegister =()=>{
 return(
 
     <>
@@ -647,4 +647,4 @@ return(
 
 )}
 
-export default Accessoriess
+export default ACPRegister

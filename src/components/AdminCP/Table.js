@@ -8,9 +8,7 @@ const Table=(props)=>{
 return(
 <table class="table table-striped">
     <tr  class="bg">
-        <th>
-            
-        </th>
+        <th>Name</th>
         <th>details</th>
         <th>Color</th>
         <th>Price</th>

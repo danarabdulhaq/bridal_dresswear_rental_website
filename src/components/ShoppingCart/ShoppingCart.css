@@ -1,0 +1,17 @@
+.yourCartisEmpty{
+    margin-top: 60px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.zerclear{
+
+    background-color: rgb(178, 158, 196);
+  
+}
+
+.img-cart{
+
+    width: 100px;
+    height: auto;
+}

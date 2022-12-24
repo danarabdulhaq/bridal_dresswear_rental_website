@@ -95,6 +95,11 @@ function layoutSidenav () {
                                         <div className="sb-nav-link-icon"><i ></i></div>
                                         Bouquet
                                         </Link>
+
+                                        <Link className="nav-link" to="/ACPRegister">
+                                        <div className="sb-nav-link-icon"><i ></i></div>
+                                        Regisret
+                                        </Link>
                                 </div>
                             </div>
                             <div className="sb-sidenav-footer">

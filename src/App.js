@@ -17,7 +17,7 @@ import DisplayCode from './components/Accessoriss/DisplayCode';
 import LoginData from './components/Data/LoginData';
 import Fback from './components/Pages/FeedbackPage/Fback';
 import Preloader from './components/Preloader/Preloader'
-
+import ShoppingCart from './components/ShoppingCart/ShoppingCart';
 
 
 
@@ -50,10 +50,9 @@ useEffect(()=> {data.map((info)=>{
 <Preloader />
 </div>
 ): (  login ? (
-
+<div>
 <Admin/>
-
-
+</div>
 
 ):(
   <div className="main-content">
@@ -70,6 +69,8 @@ useEffect(()=> {data.map((info)=>{
           <Route path="/Displayaccessories" element={<DisplayCode />}/>
           <Route path="/DisplayFlower" element={<DisplayFlowerss/>}  />
           <Route path="/Fback" element={<Fback/>}  />
+          <Route path="/ShoppingCart" element={<ShoppingCart/>}  />
+
       </Routes>
       <Footer/>
 </div>))}

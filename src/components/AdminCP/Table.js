@@ -1,8 +1,3 @@
-
-
-
-
-
 const Table=(props)=>{
 
 return(

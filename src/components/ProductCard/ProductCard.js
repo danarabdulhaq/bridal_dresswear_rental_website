@@ -1,8 +1,8 @@
-import Calendar from '../Calendar/Calendar';
+
 import React ,{useState} from "react";
 import './ProductCard.css';
 import '../Register-btn/Register-btn.css'
-import './CardDetails.css'
+import './CardDetails.css';
  
 const ItemCard = (props)=> {
   // The function is opens and closes the model (Written by Shaimaa Saleem)
@@ -72,7 +72,7 @@ const ItemCard = (props)=> {
             <div className="pt-1 mb-4">
        
         <button  className="btn  btn-lg btn-block" type="button" id="registerBtn">AddToCard</button>
-        <Calendar/>
+        
       </div>
 					</div>
 		    </div>

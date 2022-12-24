@@ -82,7 +82,7 @@ const Fback =()=>{
 		</div>
 		<div id='bottom'>
 		<h2>U can find all this items and more in our site </h2>
-		<Link to='/Home' id='go' className="btn"> Go to </Link>
+		<Link to='/' id='go' className="btn"> Go to </Link>
 	</div>
 </div>
 

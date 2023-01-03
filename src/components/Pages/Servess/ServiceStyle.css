@@ -26,6 +26,7 @@
 }
 
 #infoCardSide{
+<<<<<<< HEAD
   
     padding-left: 150px;
     padding-right: 200px;
@@ -37,3 +38,12 @@
 
     
   
+=======
+  padding-left: 100px;
+  padding-right: 300px;
+  width: 70%;
+  max-width: 10000px;
+  min-width: 600px;
+  
+}
+>>>>>>> b34c5083688ff24c2f0996ca66505f077f9d107a

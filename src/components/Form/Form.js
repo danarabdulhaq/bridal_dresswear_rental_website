@@ -1,7 +1,6 @@
 
 import Logo from './Images/Logo.png'
 import FormPic from './Images/FormPic.jpg'
-import Btn from '../Register-btn/Register-btn';
 import './Form.css';
 
 
@@ -26,7 +25,6 @@ const Form = (props)=> {
                       </div>
                       <h5 className="fw-normal mb-3 pb-3" >{props.text}</h5>
                    {props.children}
-    <Btn title="Sign In"/>
 </div>
 </div>
               

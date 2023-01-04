@@ -35,7 +35,7 @@ const DisplayCode  =()=>{
 
                                     return(
                                         
-                                        <ProductCard key = {index} img = {item.img} name = {item.name} details = {item.details} price = {item.price} />
+                                        <ProductCard key = {index} img = {item.img} name = {item.name} details = {item.details} price = {item.price} descri={item.details}/>
                                 
                                     )
                                     

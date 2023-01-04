@@ -16,7 +16,7 @@ import Bc from '../components/prodectaccessories/Bc.jpg';
 const DataForAccessoris =
 
 
-                [{ color : 'silver',img :  necklec ,  name : "necklec" , details : " size : s  " ,  price : "70" },
+                [{ color : 'silver',img :  necklec ,  name : "necklec" , details : " size : s  " ,  price : "70" ,},
                 { color :'silver',img :  Ba ,  name : "Bracelet" , details : " size : s   " ,  price : "50" },
                 { color :'golden',img :  Ca ,  name : "Crown" , details : " size : M    " ,  price : "200" },
                 {color : 'silver',img :  Nk ,  name : "necklec" , details : " size : L  " ,  price : "70" },

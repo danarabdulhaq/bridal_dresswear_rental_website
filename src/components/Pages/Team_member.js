@@ -1,4 +1,4 @@
-import './Aboutus.css';
+import '../Pages/Style_aboutus.css';
 import Unknown from '../images/Unknown.jpg';
 
 const team = (props) => {

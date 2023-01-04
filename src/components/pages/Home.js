@@ -13,7 +13,7 @@ return(
 <>
     <Slider/>
     <HPDesign/>
-    <div className="mx-5">
+    <div className="col-12 ">
         <CardMain/></div>
             <div className="my-5 mx-3" id="vid">
                 <HomeDesign/>

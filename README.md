@@ -7,3 +7,4 @@ to do list before 29/1/2023
 4- change slider 
 5- complete admin control panel
 6- change card item place 
+7-change team member to something real

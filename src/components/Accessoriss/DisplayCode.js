@@ -2,7 +2,7 @@ import ProductCard from '../ProductCard/ProductCard.js';
 import './Display.css';
 import '../Filter/Filter.css';
 import my_data from './DataForAccessoris';
-import url from '../Accessoriss/Cl.jpg';
+import url from '../Accessoriss/photo/headeracc.jpg';
 import { useEffect, useState } from "react";
 
 const DisplayCode  =()=>{

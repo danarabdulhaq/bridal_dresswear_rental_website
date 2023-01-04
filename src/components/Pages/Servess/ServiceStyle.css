@@ -1,3 +1,4 @@
+
 #ServiceHeader
 {
   background-color: #9174a3;
@@ -23,11 +24,12 @@
 {
   padding: 50px;
 }
+@media screen and (min-width: 1250px){
 #infoCardSide{
-  padding-left: 100px;
+  padding-left: 400px;
   padding-right: 300px;
-  width: 70%;
+  width: 90%;
   max-width: 10000px;
   min-width: 600px;
   
-}
+}}

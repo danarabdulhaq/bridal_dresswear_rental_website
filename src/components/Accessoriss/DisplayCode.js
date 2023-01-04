@@ -139,7 +139,7 @@ const DisplayCode  =()=>{
 
                                     return(
                                         
-                                        <ProductCard key = {index} img = {item.url} name = {item.name} details = {item.details} price = {item.price} />
+                                        <ProductCard key = {index} img = {item.url} name = {item.name} details = {item.details} price = {item.price} descri={item.descri} />
                                 
                                     )
                                     

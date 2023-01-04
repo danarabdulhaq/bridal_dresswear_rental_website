@@ -2,7 +2,9 @@ import ProductCard from '../ProductCard/ProductCard.js';
 import './Display.css';
 import '../Filter/Filter.css';
 import my_data from './DataForAccessoris';
+
 import url from '../Accessoriss/photo/headeracc.jpg';
+
 import { useEffect, useState } from "react";
 
 const DisplayCode  =()=>{
@@ -139,7 +141,7 @@ const DisplayCode  =()=>{
 
                                     return(
                                         
-                                        <ProductCard key = {index} img = {item.url} name = {item.name} details = {item.details} price = {item.price} />
+                                        <ProductCard key = {index} img = {item.url} name = {item.name} details = {item.details} price = {item.price} descri={item.descri} />
                                 
                                     )
                                     

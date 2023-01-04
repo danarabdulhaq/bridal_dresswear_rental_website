@@ -45,7 +45,7 @@ import { Link } from 'react-router-dom';
                               <div className="col-8">
                                     <div className="card-body">
                                     <h5 className="card-titles">Bouquets of Roses</h5>
-                                    <p className="card-text">We provide you with beautiful flower bouquets with a variety of distinctive designs.</p>
+                                    <p className="card-text">We offer you with beautiful flower bouquets with a variety of distinctive designs.</p>
                                     </div>
                                     </div>
                                     <div className="col-md-4">

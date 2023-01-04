@@ -50,13 +50,7 @@ const ItemCard = (props)=> {
 				   <div className="description">
 			          <p className="card-text"id="item.details"> {props.descri}</p>
 				   </div>
-            <div className="pt-1 mb-4">
-        <button  className="btn  btn-lg btn-block" type="button" id="registerBtn">AddToCard</button>
-      </div>
       <Calendar/> 
-    <div className="pt-1 mb-4">
-        <button  className="btn  btn-lg btn-block" type="button" id="registerBtn">RantNow</button>
-      </div>
 					</div>
 		    </div>
 		</div>

@@ -42,9 +42,9 @@ return (
                                             <h2 className="padd-ourteam"> " Our team member "</h2>
 
                                             <div className='row rowCard  padd-top' > 
-                                                <Teammember name = 'Sophia' identification = 'fashion designer from America'/>
-                                                <Teammember name = 'Raya' identification = 'fashion designer from Palestine'/>
-                                                <Teammember name = 'Eliana' identification = 'fashion designer from France'/>
+                                                <Teammember name = 'Tareq' identification = 'CEO of LA BELLLE'/>
+                                                <Teammember name = 'Marah' identification = 'fashion designer from Palestine'/>
+                                                <Teammember name = 'Shaimaa' identification = 'fashion designer from France'/>
 
                                                 
                                             </div>

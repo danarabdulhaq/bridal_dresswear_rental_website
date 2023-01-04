@@ -24,26 +24,12 @@
 {
   padding: 50px;
 }
-
+@media screen and (min-width: 1250px){
 #infoCardSide{
-<<<<<<< HEAD
-  
-    padding-left: 150px;
-    padding-right: 200px;
-    width: 60%;
-    max-width: 10000px;
-    min-width: 600px;}
-
-   
-
-    
-  
-=======
-  padding-left: 100px;
+  padding-left: 400px;
   padding-right: 300px;
-  width: 70%;
+  width: 90%;
   max-width: 10000px;
   min-width: 600px;
   
-}
->>>>>>> b34c5083688ff24c2f0996ca66505f077f9d107a
+}}

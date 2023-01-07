@@ -2,6 +2,7 @@ to do list before 29/1/2023
 
 
 1-link calendar with data (tareq):[]
+
     1.you should make a way to get the booked dates and highlight them.[]
     2.send the dates that booked to booked dates and to admin control panel with customer info .[]
     3. if you have time and ideas change the design .[]
@@ -9,11 +10,13 @@ to do list before 29/1/2023
 
 
 2-change serves's page style():[]
+
     Change the current design to something that matches the theme of the site.
 
 
 
 3-use local storage for login access(tareq):[]
+
     we have some problems with the way to reach admin cp
     the idea was reach it by using email abc@gmail.com and pass 12345
     but its didn't work Eng.samer suggest us to use local storage to fix the problem.
@@ -38,5 +41,6 @@ to do list before 29/1/2023
 
 
 6- team member ():[]
-    1.fix the size and change there info .
+
+    1.change there info .
     2.use our info names and images.

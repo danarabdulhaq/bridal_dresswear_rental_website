@@ -41,14 +41,21 @@ return (
                                      <div>
                                             <h2 className="padd-ourteam"> " Our team member "</h2>
 
-                                            <div className='row rowCard  padd-top' > 
-                                                <Teammember name = 'Tareq' identification = 'CEO of LA BELLLE'/>
-                                                <Teammember name = 'Marah' identification = 'fashion designer from Palestine'/>
-                                                <Teammember name = 'Shaimaa' identification = 'fashion designer from France'/>
 
-                                                
-                                            </div>
-                                        </div> 
+                                            <div className="container text-center">
+  <div className="row align-items-start rowCard  padd-top">
+    <div className="col">
+    <Teammember name = 'Tareq' identification = 'CEO of LA BELLLE'/>
+    </div>
+    <div className="col">
+    <Teammember name = 'Marah' identification = 'fashion designer from Palestine'/>
+    </div>
+    <div className="col">
+    <Teammember name = 'Shaimaa' identification = 'fashion designer from France'/>
+    </div>
+  </div>
+</div>
+</div> 
 
 </div>
 

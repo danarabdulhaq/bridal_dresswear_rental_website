@@ -6,6 +6,8 @@ import my_data from './DataForAccessoris';
 import url from '../Accessoriss/photo/headeracc.jpg';
 
 import { useEffect, useState } from "react";
+import Navbar from '../Navbar/Navbar.js';
+import Footer from '../Footer/Footer.js';
 
 const DisplayCode  =()=>{
 
@@ -61,7 +63,7 @@ const DisplayCode  =()=>{
 
    return(
       <>
-      
+      <Navbar/>
                         <div className="carousel slide" data-bs-ride="carousel">
                         <div className="carousel-inner">
                             
@@ -149,7 +151,7 @@ const DisplayCode  =()=>{
 
                         }
                     </div></div>
-
+                          <Footer/>
    </>
                                    );
 }

@@ -4,12 +4,15 @@ import HomeDesign from '../HomePageDesign/AboutDesign'
 import CardMain from "../Card-main/card-main";
 import FeedBack from '../FeedBack/FeedBack'
 import HPDesign from '../HomePageDesign/HPDesign'
+import Navbar from "../Navbar/Navbar";
+import Footer from "../Footer/Footer";
 
 
 const Home=()=>
 {
 return(
 <>
+<Navbar/>
     <Slider/>
     <HPDesign/>
     <div className="mx-5">
@@ -18,6 +21,7 @@ return(
                 <HomeDesign/>
             </div>
                     <FeedBack/>
+                   <Footer/> 
 </>
 )}
 export default Home;

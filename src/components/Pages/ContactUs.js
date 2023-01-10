@@ -1,13 +1,15 @@
 // import
 import React from "react";
+import Footer from "../Footer/Footer";
+import Navbar from "../Navbar/Navbar";
 import './ContactUs.css';
 
 
 //function
 const Contact = () => {
     return(
-		
-
+		<>
+		<Navbar/>
 	<div className="container-cc" id="cc" >
 
 		<div className="contact-box">
@@ -24,7 +26,8 @@ const Contact = () => {
 		    </div>
 	    </div>
 	</div>
-	
+	<Footer/>
+	</>
     );
  }
  

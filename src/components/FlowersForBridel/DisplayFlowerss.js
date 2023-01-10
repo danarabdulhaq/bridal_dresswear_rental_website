@@ -5,6 +5,8 @@ import my_data from './DataForFlowers';
 import './DataForFlowers';
 import url from './photo/flowerheader.jpg';
 import { useEffect, useState } from "react";
+import Navbar from '../Navbar/Navbar';
+import Footer from '../Footer/Footer';
 
 const DisplayFlowerss  =()=>{
 
@@ -60,6 +62,7 @@ const DisplayFlowerss  =()=>{
 
     return(
        <>
+      <Navbar/> 
                          <div className="carousel slide" data-bs-ride="carousel">
                          <div className="carousel-inner">
                              
@@ -145,7 +148,7 @@ const DisplayFlowerss  =()=>{
  
                          }
                      </div></div>
- 
+                      <Footer/>
     </>
                                     );
  }

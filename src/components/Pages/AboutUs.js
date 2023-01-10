@@ -2,13 +2,15 @@ import './Aboutus.css';
 import Teammember from './Team_member';
 import 'animate.css';
 import React from 'react';
+import Navbar from '../Navbar/Navbar';
+import Footer from '../Footer/Footer';
 
 const Aboutus  = () =>{
 
 return (
 
 <>
-
+<Navbar/>
 <div id="carouselExampleInterval" className="carousel slide" data-bs-ride="carousel">
   <div className="carousel-inner">
     <div className="carousel-item active" data-bs-interval="10000">
@@ -58,7 +60,7 @@ return (
 </div> 
 
 </div>
-
+<Footer/>
 </>
   
 

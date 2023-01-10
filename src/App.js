@@ -11,18 +11,25 @@ import Register from './components/Pages/RegisterPage';
 import Contact from './components/Pages/ContactUs';
 import Aboutus from './components/Pages/AboutUs'
 import DisplayDresses from './components/PageDresses/DisplayDresses';
-import Admin from './components/Pages/AdminLog';
 import DisplayFlowerss from './components/FlowersForBridel/DisplayFlowerss';
 import DisplayCode from './components/Accessoriss/DisplayCode';
-import LoginData from './components/Data/LoginData';
 import Fback from './components/Pages/FeedbackPage/Fback';
 import Preloader from './components/Preloader/Preloader'
 import ShoppingCart from './components/ShoppingCart/ShoppingCart';
-
+import Admin from './components/Pages/AdminLog';
+import Dress from './components/AdminCP/Dress';
+import Accessoriess from './components/AdminCP/Accessoriess';
+import Bouquet from './components/AdminCP/Bouquet';
+import ACPRegister from './components/AdminCP/ACPRgister';
 
 
 
 function App() {
+
+  localStorage.setItem('adminEmail',"abc@gmail.com")
+  localStorage.setItem('adminPass',"12345")
+  localStorage.setItem('login',false)
+
 
 
   const [loading, setLoading] = useState(false);
@@ -33,48 +40,37 @@ function App() {
     }, 5300);
   }, []);
 
-const [login,setLogin]=useState(false);
 
-const[ data,setData]=useState(LoginData)
-useEffect(()=> {data.map((info)=>{
-    if(info.state===true&&info.access==='admin')
-{setLogin(true)}
-})}
-  )
+  
   return (
-    
     <div className='App'>
-      
-  {loading ? (
-<div className="loader-container">
-<Preloader />
-</div>
-): (  login ? (
-<div>
-<Admin/>
-</div>
-
-):(
-  <div className="main-content">
-     
-     <Navbar/>
-      <Routes>
-        <Route path="/" element={<Home />}/>
-          <Route path="/ContactUs" element={<Contact />} />
-          <Route path="/Services" element={<Services />} />
-          <Route path="/AboutUs" element={<Aboutus />} />
-          <Route path="/Login" element={<Login />} />
-          <Route path="/Register" element={<Register />} />
-          <Route path="/DisplayDress" element={<DisplayDresses/>}/>
-          <Route path="/Displayaccessories" element={<DisplayCode />}/>
-          <Route path="/DisplayFlower" element={<DisplayFlowerss/>}  />
-          <Route path="/Fback" element={<Fback/>}  />
-          <Route path="/ShoppingCart" element={<ShoppingCart/>}  />
-
-      </Routes>
-      <Footer/>
-</div>))}
-</div>
+    {loading ? (
+  <div className="loader-container">
+  <Preloader />
+  </div>
+  ):(
+    <div className="main-content">
+       
+        <Routes>
+          <Route path="/" element={<Home />}/>
+            <Route path="/ContactUs" element={<Contact />} />
+            <Route path="/Services" element={<Services />} />
+            <Route path="/AboutUs" element={<Aboutus />} />
+            <Route path="/Login" element={<Login />} />
+            <Route path="/Register" element={<Register />} />
+            <Route path="/DisplayDress" element={<DisplayDresses/>}/>
+            <Route path="/Displayaccessories" element={<DisplayCode />}/>
+            <Route path="/DisplayFlower" element={<DisplayFlowerss/>}  />
+            <Route path="/Fback" element={<Fback/>}  />
+            <Route path="/ShoppingCart" element={<ShoppingCart/>}  />
+            <Route path="/Dress" element={<Dress/>} />
+            <Route path="/Accessoriess" element={<Accessoriess/>} />
+            <Route path="/Bouquet" element={<Bouquet/>} />
+            <Route path="/ACPRegister" element={<ACPRegister/>} />
+  
+        </Routes>
+  </div>)}
+  </div>
   );
 }
 export default App;

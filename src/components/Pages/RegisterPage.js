@@ -3,10 +3,14 @@ import '../Textbox/Textbox.css'
 import '../Form/Form'
 import '../Register-btn/Register-btn.css';
 import { Link } from 'react-router-dom';
+import Navbar from '../Navbar/Navbar';
+import Footer from '../Footer/Footer';
 
 const Register = ()=> { 
   
 return (
+  <>
+  <Navbar/>
 <div className='register' >  
    <Form text= "Sign into your account"> 
    <div className="form-outline mb-4 ">
@@ -41,7 +45,8 @@ return (
     </Form>
 
     </div> 
-
+    <Footer/>
+</>
 );
 
 

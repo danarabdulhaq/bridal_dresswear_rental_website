@@ -6,12 +6,14 @@ import dresss from './dressss.jpg';
 import flower from './flower.jpg';
 import accessoriss from './accessoriss.jpg';
 import { Link } from 'react-router-dom';
+import Navbar from '../../Navbar/Navbar';
+import Footer from '../../Footer/Footer';
 
 
  const Service =()=>{
       return(
             <>
-            
+            <Navbar/>
             
                   <div  id='ServiceHeader'>
                         <h2 id='headOfService'>Our Service</h2>
@@ -120,6 +122,7 @@ import { Link } from 'react-router-dom';
                               </div>
                               </div>
                   </div>
+                  <Footer/>
             </>
             
       );

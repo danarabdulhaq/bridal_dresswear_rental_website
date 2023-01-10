@@ -4,6 +4,8 @@ import '../Filter/Filter.css';
 import my_Data from '../Data/DataForDresses.js';
 import displayheaderforDresses from './headerDressesPage.jpg'
 import { useEffect, useState } from "react";
+import Footer from '../Footer/Footer';
+import Navbar from '../Navbar/Navbar';
 
 const DisplayDresses= () =>{
 
@@ -78,6 +80,7 @@ const DisplayDresses= () =>{
   
                         return(
 <>
+<Navbar/>
                             <div className="carousel slide" data-bs-ride="carousel">
                                     <div className="carousel-inner">
                                    
@@ -169,6 +172,7 @@ filteredList.map((item , index )=> {
                                     }
                                 </div>
 </div>
+<Footer/>
        </>
     );
 }

@@ -17,13 +17,16 @@ import FBthi from './FBI/FB13.jpg';
 import FBfou from './FBI/FB14.jpg';
 import FBfif from './FBI/FB15.jpg';
 import FBsixt from './FBI/FB16.jpg';
+import Navbar from '../../Navbar/Navbar';
+import Footer from '../../Footer/Footer';
 
 
 
 
 const Fback =()=>{
     return(
-
+<>
+<Navbar/>
 <div class="container" id="ffb">
     <div id='PA'>
      <h1>You are a member of our family, share your beautiful moment with us</h1>
@@ -85,7 +88,8 @@ const Fback =()=>{
 		<Link to='/' id='go' className="btn"> Go to </Link>
 	</div>
 </div>
-
+<Footer/>
+</>
     );
 }
 

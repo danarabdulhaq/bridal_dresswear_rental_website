@@ -15,7 +15,7 @@ to do list before 29/1/2023
 
 
 
-3-use local storage for login access(tareq):[]
+3-use local storage for login access(tareq):[done]
 
     we have some problems with the way to reach admin cp
     the idea was reach it by using email abc@gmail.com and pass 12345

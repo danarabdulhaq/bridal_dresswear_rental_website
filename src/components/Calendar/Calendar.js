@@ -1,5 +1,6 @@
 import React, {  useRef, useState } from 'react';
 import './Calendar.css'
+import Appointment from './CalenderView';
 
 
 const Cal=()=> {
@@ -32,6 +33,9 @@ const Cal=()=> {
         if (start < bookedStart && end > bookedEnd) {
             error = "Selected dates are already booked.";
         }
+        if (start ==null || end ==null) {
+          error = "pleas select date";
+      }
     });
 if(end<start)
   {
@@ -63,11 +67,11 @@ if(end<start)
     <input type='date' min={today.toISOString().slice(0, 10)}ref={endDate}/>
     <button onClick={handelClick}id="registerBtn">Book date</button>
     {book?(
-      <div className="alert  alert-dark mx-5 my-3" role="alert">
-      Dates booked successfully
-    </div>
-    ):(<div className="alert alert-danger mx-5 my-3" role="alert">
-    Selected dates are already booked.  </div>)}
+     <div className="alert  alert-dark mx-5 my-3" role="alert">
+     Dates booked successfully
+   </div>
+    ):' '}
+    <Appointment/>
     </>
   );
 }

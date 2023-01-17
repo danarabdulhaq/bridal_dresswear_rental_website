@@ -6,7 +6,7 @@ import  '../Register-btn/Register-btn.css';
 import { useRef } from 'react';
 import Navbar from '../Navbar/Navbar';
 import Footer from '../Footer/Footer';
-import Admin from './AdminLog';
+import Admin from '../AdminPage/Admin';
 
 
 const Login = ()=> { 
@@ -29,7 +29,7 @@ const handelClick=()=>{
     }
   }
 }
-useEffect(()=>localStorage.setItem('login',login)) 
+useEffect(()=>localStorage.setItem('login',true)) 
 
     
 return (
@@ -37,7 +37,7 @@ return (
    { login?
    (
     <>
-     <Admin/>
+    <Admin/>
    </>
    ):(
 

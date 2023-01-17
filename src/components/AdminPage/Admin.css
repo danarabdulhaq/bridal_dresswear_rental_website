@@ -1,0 +1,27 @@
+.toolBar{
+
+    background-color: #222021;
+    color: #fff;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    padding: 1rem;
+}
+.sidBar{
+background-color: #222021;
+color: #fff;
+top: 0;
+left: 0;
+height: 100vh;
+width: 280px;
+
+}
+.sidBar li{
+    list-style: none;
+    padding: 1rem 2rem;
+    border-bottom: solid rgb(255, 255, 255,0.1) 1px ;
+}
+.sidBar li:hover{
+    background-color: #fff;
+    color: black;
+}

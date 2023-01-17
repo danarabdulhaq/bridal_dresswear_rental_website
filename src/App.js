@@ -1,8 +1,6 @@
 
 import React, { useState,useEffect} from 'react';
 import './App.css';
-import Footer from './components/Footer/Footer';
-import Navbar from './components/Navbar/Navbar';
 import Home from './components/Pages/Home';
 import Services from './components/Pages/Servess/Service';
 import {  Route, Routes } from 'react-router-dom';
@@ -15,12 +13,15 @@ import DisplayFlowerss from './components/FlowersForBridel/DisplayFlowerss';
 import DisplayCode from './components/Accessoriss/DisplayCode';
 import Fback from './components/Pages/FeedbackPage/Fback';
 import Preloader from './components/Preloader/Preloader'
+import AccessoressTable from './components/AdminPage/AccessoressTable';
+import BouquetTable from './components/AdminPage/BouquetTable';
+import DressTable from './components/AdminPage/DressTable';
+
 import ShoppingCart from './components/ShoppingCart/ShoppingCart';
-import Admin from './components/Pages/AdminLog';
-import Dress from './components/AdminCP/Dress';
-import Accessoriess from './components/AdminCP/Accessoriess';
-import Bouquet from './components/AdminCP/Bouquet';
-import ACPRegister from './components/AdminCP/ACPRgister';
+// import Dress from './components/AdminCP/Dress';
+// import Accessoriess from './components/AdminCP/Accessoriess';
+// import Bouquet from './components/AdminCP/Bouquet';
+// import ACPRegister from './components/AdminCP/ACPRgister';
 
 
 
@@ -63,11 +64,9 @@ function App() {
             <Route path="/DisplayFlower" element={<DisplayFlowerss/>}  />
             <Route path="/Fback" element={<Fback/>}  />
             <Route path="/ShoppingCart" element={<ShoppingCart/>}  />
-            <Route path="/Dress" element={<Dress/>} />
-            <Route path="/Accessoriess" element={<Accessoriess/>} />
-            <Route path="/Bouquet" element={<Bouquet/>} />
-            <Route path="/ACPRegister" element={<ACPRegister/>} />
-  
+            <Route path="/Login/Dress" element={<DressTable/>} />
+            <Route path="/Login/Accessoriess" element={<AccessoressTable/>} />
+            <Route path="/Login/Bouquet" element={<BouquetTable/>} />  
         </Routes>
   </div>)}
   </div>

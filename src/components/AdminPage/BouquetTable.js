@@ -9,7 +9,7 @@ const BouquetTable=()=>{
         <ToolBar/>
         <div className="row mx-0">
                         <SideBar/>
-            <div className="col">
+            <div className="col "id="contant">
                         <h1>bouq</h1>
 </div>
 

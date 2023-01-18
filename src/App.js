@@ -18,6 +18,7 @@ import BouquetTable from './components/AdminPage/BouquetTable';
 import DressTable from './components/AdminPage/DressTable';
 
 import ShoppingCart from './components/ShoppingCart/ShoppingCart';
+import Massages from './components/AdminPage/Massages';
 // import Dress from './components/AdminCP/Dress';
 // import Accessoriess from './components/AdminCP/Accessoriess';
 // import Bouquet from './components/AdminCP/Bouquet';
@@ -30,6 +31,11 @@ function App() {
   localStorage.setItem('adminEmail',"abc@gmail.com")
   localStorage.setItem('adminPass',"12345")
   localStorage.setItem('login',false)
+  localStorage.setItem('name','')
+  localStorage.setItem('phone','')
+  localStorage.setItem('countEmail','')
+  localStorage.setItem('text','')
+
 
 
 
@@ -67,6 +73,7 @@ function App() {
             <Route path="/Login/Dress" element={<DressTable/>} />
             <Route path="/Login/Accessoriess" element={<AccessoressTable/>} />
             <Route path="/Login/Bouquet" element={<BouquetTable/>} />  
+            <Route path="/Login/Massages" element={<Massages/>} />  
         </Routes>
   </div>)}
   </div>

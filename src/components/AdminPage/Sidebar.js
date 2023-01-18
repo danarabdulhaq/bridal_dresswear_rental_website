@@ -22,10 +22,11 @@ return(
         <Link className="nav-link" to='/Login/Bouquet'>Bouquet</Link>
     </li>
     <li>
-        Massages
+        <Link className="nav-link" to='/Login/Massages'>Massages</Link>
+        
     </li>
-    <li>
-    <Link className="nav-link" to='/'> Logout</Link>
+    <li onClick={handelClick}>
+    <Link className="nav-link" to='/Login'> Logout</Link>
         
     </li>
     </div>

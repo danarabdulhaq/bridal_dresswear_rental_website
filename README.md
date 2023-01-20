@@ -24,7 +24,7 @@ to do list before 29/1/2023
 
 
 
-4-  slider ():[]
+4-  slider ():[done]
 
     you have tow options 
     fix current one (cause of the pre-loader it doesn't moving stuck in first one  ).

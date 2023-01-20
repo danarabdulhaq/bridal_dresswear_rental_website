@@ -6,11 +6,13 @@ import MassagesData from "../Data/ContactUsData"
 const Massages=()=>{
     return(
         <>
-        <ToolBar/>
-        <div className="row mx-0">
-                        <SideBar/>
-            <div className="col" id="contant">
-                <h4>Massages from Contact Us page</h4>
+<ToolBar/>
+            <div className="row mx-0">
+            <div  className="col-2 "id='sidebar'>
+                <SideBar/>
+            </div>
+            <div className="col-10 mx-0"id="contant">
+            <h4>Massages from Contact Us page</h4>
             <table class="table">
     <thead>       
         <tr>
@@ -35,11 +37,8 @@ const Massages=()=>{
         })}
     </tbody>
 </table>
-</div>
-
-        
-
-        </div>
+            </div>
+            </div>
         </>
     )
 }

@@ -19,10 +19,18 @@ import DressTable from './components/AdminPage/DressTable';
 
 import ShoppingCart from './components/ShoppingCart/ShoppingCart';
 import Massages from './components/AdminPage/Massages';
+import HomeEdit from './components/AdminPage/HomeEdit';
+import AboutUsEdite from './components/AdminPage/AboutUsEdite';
+import ServessEdite from './components/AdminPage/ServessEdite';
+import ContactEdite from './components/AdminPage/ContactEdite';
 // import Dress from './components/AdminCP/Dress';
 // import Accessoriess from './components/AdminCP/Accessoriess';
 // import Bouquet from './components/AdminCP/Bouquet';
 // import ACPRegister from './components/AdminCP/ACPRgister';
+import image1 from './components/Slider/Images/s1.webp';
+import dress from './components/Card-main/images/dress.jpg'
+import earring from './components/Card-main/images/earring.jpg'
+import flowers from './components/images/whiteFlower.jpg'
 
 
 
@@ -35,7 +43,10 @@ function App() {
   localStorage.setItem('phone','')
   localStorage.setItem('countEmail','')
   localStorage.setItem('text','')
-
+  localStorage.setItem('slider',image1);
+  localStorage.setItem('flowerImg',flowers)
+  localStorage.setItem('DressImg',dress)
+  localStorage.setItem('AccessImg',earring)
 
 
 
@@ -57,7 +68,6 @@ function App() {
   </div>
   ):(
     <div className="main-content">
-       
         <Routes>
           <Route path="/" element={<Home />}/>
             <Route path="/ContactUs" element={<Contact />} />
@@ -74,6 +84,10 @@ function App() {
             <Route path="/Login/Accessoriess" element={<AccessoressTable/>} />
             <Route path="/Login/Bouquet" element={<BouquetTable/>} />  
             <Route path="/Login/Massages" element={<Massages/>} />  
+            <Route path="/Login/Home" element={<HomeEdit/>} />  
+            <Route path="/Login/AboutUs" element={<AboutUsEdite/>} />  
+            <Route path="/Login/Servess" element={<ServessEdite/>} />  
+            <Route path="/Login/contactUs" element={<ContactEdite/>} />  
         </Routes>
   </div>)}
   </div>

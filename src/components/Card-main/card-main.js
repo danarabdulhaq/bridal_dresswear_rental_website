@@ -1,8 +1,5 @@
 import './card-main.css'; 
-import dress from './images/dress.jpg';
 import { Link } from 'react-router-dom';
-import whiteFlower from "../images/whiteFlower.jpg"
-import earring from './images/earring.jpg'
 const CardMain = ()=> {
     return (
 
@@ -11,7 +8,7 @@ const CardMain = ()=> {
   <div className="box mx-4">
             <Link to="/DisplayFlower">
     <div className="imgBxCard">
-    <img src= {whiteFlower}  alt=""/>
+    <img src= {localStorage.getItem('flowerImg')}  alt=""/>
         </div>
           <div className="content-card-main">
             <h2>Bouquets Of roses</h2>
@@ -24,7 +21,7 @@ const CardMain = ()=> {
 
     <div className="imgBxCard">
       
-    <img src={dress} alt=""/>
+    <img src={localStorage.getItem('DressImg')} alt=""/>
      
         </div>
           <div className="content-card-main">
@@ -36,7 +33,7 @@ const CardMain = ()=> {
   <div className="box mx-4">
   <Link to= "/Displayaccessories">
     <div className="imgBxCard">
-    <img src={earring}  alt=""/>
+    <img src={localStorage.getItem('AccessImg')}  alt=""/>
         </div>
           <div className="content-card-main">
             <h2>Accessories</h2>

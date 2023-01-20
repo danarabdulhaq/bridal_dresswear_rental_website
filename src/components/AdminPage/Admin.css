@@ -12,8 +12,11 @@ background-color: #222021;
 color: #fff;
 top: 0;
 left: 0;
-height: 100vh;
-width: 280px;
+min-height: 100vh;
+height: 100%;
+max-width: 280px;
+min-width: 180px;
+
 
 }
 .sidBar li{
@@ -24,4 +27,21 @@ width: 280px;
 .sidBar li:hover{
     background-color: #fff;
     color: black;
+}
+#cardMainImage{
+    width: 20%;
+    height: 20%;
+}
+#contant{
+
+    position: relative;
+}
+#sidebar{
+    background-color: #222021;
+}
+#productImage{
+
+    width: 250px;
+    height: 250px;
+    margin: 3rem 2rem;
 }

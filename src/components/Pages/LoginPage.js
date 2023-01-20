@@ -24,7 +24,6 @@ const handelClick=()=>{
     if(email.current.value==localStorage.getItem("adminEmail")&&password.current.value==localStorage.getItem("adminPass"))
     {
       setLogin(true);
-      console.log(email.current.value,password.current.value)
       
     }
   }
